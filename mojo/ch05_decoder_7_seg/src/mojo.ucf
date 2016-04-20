@@ -1,0 +1,31 @@
+# User Constraint File for 7-seg decoder implementation on Mojo with IO Shield
+
+NET "CLK" LOC = P56; 
+
+# 7-segments
+NET "SEG[7]" LOC = P5;
+NET "SEG[6]" LOC = P8;
+NET "SEG[5]" LOC = P144;
+NET "SEG[4]" LOC = P143;
+NET "SEG[3]" LOC = P2;
+NET "SEG[2]" LOC = P6;
+NET "SEG[1]" LOC = P1;
+NET "SEG[0]" LOC = P141;
+
+
+# Digits 
+NET "DIGIT[3]" LOC = P12;
+NET "DIGIT[2]" LOC = P7;
+NET "DIGIT[1]" LOC = P10;
+NET "DIGIT[0]" LOC = P9;
+
+# Inputs to slide switches 0 to 3
+NET "D[0]" LOC = P120 | PULLDOWN;
+NET "D[1]" LOC = P121 | PULLDOWN;
+NET "D[2]" LOC = P118 | PULLDOWN;
+NET "D[3]" LOC = P119 | PULLDOWN;
+
+
+
+
+

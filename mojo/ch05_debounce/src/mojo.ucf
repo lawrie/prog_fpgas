@@ -1,0 +1,12 @@
+# UCF for testing switch debouncin on Mojo with IO Shield
+# Two switches are Left and Right
+# LEDs are LED0, LED1 and LED3
+ 
+NET "clk" LOC = P56;
+
+NET "switch_a" LOC = "P142" | PULLDOWN;
+NET "switch_b" LOC = "P138" | PULLDOWN;
+
+NET "led_a"  LOC = "P97"; 
+NET "led_b"  LOC = "P98"; 
+NET "led_c"  LOC = "P94"; 
