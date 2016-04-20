@@ -1,0 +1,12 @@
+# User Constraint File for Data Selector on Elbert 2
+
+# DIP Switch 8 is selector for channels A and B
+# Left Push Switch (SW1) is input A
+# Right Push Switch (SW2) is input B
+# LED D1 is output
+
+NET "SEL" LOC = "P70" | PULLUP;
+NET "A" LOC = "P80" | PULLUP;
+NET "B" LOC = "P79" | PULLUP;
+
+NET "Q"  LOC = "P55"; 

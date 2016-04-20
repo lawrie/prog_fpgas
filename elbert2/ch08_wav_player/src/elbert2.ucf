@@ -1,0 +1,10 @@
+# User Constraint File for WAV file playing on Elbert 2
+
+NET "CLK" LOC = "P129"; # 12MHz
+
+# Switches
+NET "switch_play" LOC = "P80" | PULLUP;
+
+# Output
+NET "audio_out" LOC = "P88";
+
