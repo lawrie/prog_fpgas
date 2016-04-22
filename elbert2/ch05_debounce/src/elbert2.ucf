@@ -1,0 +1,12 @@
+# UCF for testing switch debouncin on Elbert2
+# Two switches are SW1 and SW2
+# LEDs are LED1, LED2 and LED3
+ 
+NET "clk" LOC = P129;
+
+NET "switch_a" LOC = "P80" | PULLUP;
+NET "switch_b" LOC = "P79" | PULLUP;
+
+NET "led_a"  LOC = "P55"; 
+NET "led_b"  LOC = "P54"; 
+NET "led_c"  LOC = "P51"; 

@@ -1,0 +1,11 @@
+# User Constraint File for Data Selector on Papilio Logic Mega WIng
+# Slide Switch 0 is selector for channels A and B
+# Left Push Switch on the joystick input A
+# Right Push Switch on the joystick input B
+# LED 0 is output
+
+NET "SEL" LOC = "P91";
+NET "A" LOC = "P34" | PULLUP;
+NET "B" LOC = "P36" | PULLUP;
+
+NET "Q"  LOC = "P5"; 

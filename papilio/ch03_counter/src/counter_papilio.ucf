@@ -1,0 +1,11 @@
+# User Constraint File for 4 digit counter on Papilio and LogicStart MegaWing
+
+# Joystick select Push Switch is Clock
+# LEDs 0 to 3 are outputs
+
+NET "Clock" LOC = "P22" | PULLUP | CLOCK_DEDICATED_ROUTE = TRUE;
+
+NET "QA"  LOC = "P5"; 
+NET "QB"  LOC = "P9"; 
+NET "QC"  LOC = "P10"; 
+NET "QD"  LOC = "P11"; 

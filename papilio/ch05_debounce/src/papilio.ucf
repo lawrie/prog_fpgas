@@ -1,0 +1,12 @@
+# UCF for testing switch debouncin on Papilio with LogicStart
+# Two switches are Left and Right
+# Three LEDs are LED0, LED1 and LED2
+ 
+NET "CLK" LOC = P89; #32MHz 
+
+NET "switch_a" LOC = "P34" | PULLUP;
+NET "switch_b" LOC = "P36" | PULLUP;
+
+NET "led_a"  LOC = "P5"; 
+NET "led_b"  LOC = "P9"; 
+NET "led_c"  LOC = "P10"; 

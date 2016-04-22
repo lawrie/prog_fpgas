@@ -1,0 +1,31 @@
+# User Constraint File for 7-seg decoder on Elbert2
+
+NET "CLK" LOC = P129; # 12MHz
+
+# 7-segments
+NET "SEG[7]" LOC = P117;
+NET "SEG[6]" LOC = P116;
+NET "SEG[5]" LOC = P115;
+NET "SEG[4]" LOC = P113;
+NET "SEG[3]" LOC = P112;
+NET "SEG[2]" LOC = P111;
+NET "SEG[1]" LOC = P110;
+NET "SEG[0]" LOC = P114;
+
+
+# Digits 
+NET "DIGIT[2]" LOC = P124;
+NET "DIGIT[1]" LOC = P121;
+NET "DIGIT[0]" LOC = P120;
+
+
+# Inputs to slide switches 0 to 3
+NET "D[0]" LOC = P58 | PULLUP;
+NET "D[1]" LOC = P59 | PULLUP;
+NET "D[2]" LOC = P60 | PULLUP;
+NET "D[3]" LOC = P63 | PULLUP;
+
+
+
+
+

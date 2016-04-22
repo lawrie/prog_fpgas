@@ -1,0 +1,9 @@
+# User Constraint File for tone generation on Papillio
+
+NET "CLK" LOC = P89; #32MHz 
+
+# Output
+NET "tone_1khz" LOC = P85;
+NET "tone_100hz" LOC = P83;
+NET "tone_12khz" LOC = P78;
+
