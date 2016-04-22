@@ -1,0 +1,15 @@
+# User Constraint File for PWM on Papillio with LogicStart
+
+NET "CLK" LOC = P89; #32MHz 
+
+# Switches
+NET "switch_up" LOC = "P25" | PULLUP;
+NET "switch_dn" LOC = "P32" | PULLUP;
+
+# Output
+NET "PWM_PIN" LOC = P5; # also LED0
+
+
+
+
+
