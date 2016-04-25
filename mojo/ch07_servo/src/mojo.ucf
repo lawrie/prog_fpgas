@@ -1,0 +1,15 @@
+# User Constraint File for PWM on Mojo with IO Shield
+
+NET "CLK" LOC = P56; 
+
+# Switches
+NET "switch_up" LOC = "P137" | PULLDOWN;
+NET "switch_dn" LOC = "P139" | PULLDOWN;
+
+# Output
+NET "CONTROL_PIN" LOC = P97; # also LED1
+
+
+
+
+

@@ -1,0 +1,14 @@
+# User Constraint File for Elbert 2
+NET "CLK" LOC = P129; # 12MHz
+
+# Switches
+NET "switch_up" LOC = "P78" | PULLUP;          # SW3
+NET "switch_dn" LOC = "P76" | PULLUP;          # SW5
+
+# Output
+NET "PWM_PIN" LOC = P55; # LED1
+
+
+
+
+

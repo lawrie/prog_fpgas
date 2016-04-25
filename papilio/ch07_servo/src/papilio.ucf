@@ -1,0 +1,7 @@
+# User Constraint File for Papilio
+
+NET "CLK" LOC = P89; #32MHz 
+
+# Output
+NET "CONTROL_PIN" LOC = P91; # Header C pin 0 (top)
+
