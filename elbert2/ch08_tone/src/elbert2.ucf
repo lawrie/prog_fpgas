@@ -1,0 +1,9 @@
+# User Constraint File for tone generation on Mojo
+
+NET "CLK" LOC = P129; # 12MHz 
+
+# Output
+NET "tone_1khz" LOC = P31;
+NET "tone_100hz" LOC = P32;
+NET "tone_12khz" LOC = P28;
+
