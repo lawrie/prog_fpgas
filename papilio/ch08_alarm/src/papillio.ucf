@@ -1,0 +1,10 @@
+# User Constraint File for 1kHz Alarm tone playing on Papillio and LogicStart
+
+NET "CLK" LOC = P89; #32MHz 
+
+# Switches
+NET "enable" LOC = "P91"; # Slide switch 0
+
+# Output
+NET "BUZZER" LOC = "P41";
+

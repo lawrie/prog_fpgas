@@ -1,0 +1,9 @@
+# User Constraint File for 1kHz Alarm tone playing on Elbert2
+
+NET "CLK" LOC = P129; # 12MHz
+
+# Switches
+NET "enable" LOC = "P80" | PULLUP; # SW1
+
+# Output
+NET "BUZZER" LOC = P88; 

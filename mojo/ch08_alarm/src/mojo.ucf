@@ -1,0 +1,9 @@
+# User Constraint File for 1kHz Alarm tone playing on Mojo
+
+NET "CLK" LOC = P56; # 50MHz
+
+# Switches
+NET "enable" LOC = P140 | PULLDOWN; # CENTER Switch on IO Shield
+
+# Output
+NET "BUZZER" LOC = P97; # also LED1
