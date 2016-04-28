@@ -1,0 +1,20 @@
+
+
+NET "CLK" LOC = P89; #32MHz 
+
+# Outputs
+NET "HS" LOC = P83;
+NET "VS" LOC = P85;
+
+NET "RED[0]" LOC = P61;
+NET "RED[1]" LOC = P58;
+NET "RED[2]" LOC = P54;
+
+
+NET "GREEN[0]" LOC = P68;
+NET "GREEN[1]" LOC = P66;
+NET "GREEN[2]" LOC = P63;
+
+
+NET "BLUE[0]" LOC = P78;
+NET "BLUE[1]" LOC = P71;

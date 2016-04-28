@@ -1,0 +1,26 @@
+# Elbert 2
+
+NET "CLK" LOC = P129; #12MHz 
+
+# Inputs
+NET "up_switch" LOC = P78 | PULLUP;    # SW3
+NET "dn_switch" LOC = P76 | PULLUP;    # SW5
+NET "left_switch" LOC = P75 | PULLUP;  # SW6
+NET "right_switch" LOC = P77 | PULLUP; # SW4
+
+# Outputs
+NET "HS" LOC = P93;
+NET "VS" LOC = P92;
+
+NET "RED[0]" LOC = P103;
+NET "RED[1]" LOC = P104;
+NET "RED[2]" LOC = P105;
+
+
+NET "GREEN[0]" LOC = P99;
+NET "GREEN[1]" LOC = P101;
+NET "GREEN[2]" LOC = P102;
+
+
+NET "BLUE[0]" LOC = P96;
+NET "BLUE[1]" LOC = P98;

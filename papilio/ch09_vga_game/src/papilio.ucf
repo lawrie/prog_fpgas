@@ -1,0 +1,26 @@
+
+
+NET "CLK" LOC = P89; #32MHz 
+
+# Inputs
+NET "up_switch" LOC = P25 | PULLUP;
+NET "dn_switch" LOC = P32 | PULLUP;
+NET "left_switch" LOC = P34 | PULLUP;
+NET "right_switch" LOC = P36 | PULLUP;
+
+# Outputs
+NET "HS" LOC = P83;
+NET "VS" LOC = P85;
+
+NET "RED[0]" LOC = P61;
+NET "RED[1]" LOC = P58;
+NET "RED[2]" LOC = P54;
+
+
+NET "GREEN[0]" LOC = P68;
+NET "GREEN[1]" LOC = P66;
+NET "GREEN[2]" LOC = P63;
+
+
+NET "BLUE[0]" LOC = P78;
+NET "BLUE[1]" LOC = P71;
