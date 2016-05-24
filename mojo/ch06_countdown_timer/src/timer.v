@@ -96,7 +96,7 @@ endtask
 task decrement_time;
 begin
   prescaler <= prescaler + 1;
-  if (prescaler == 26'd50000000) // 50 MHz to 1Hz
+  if (prescaler == 26'd49999999) // 50 MHz to 1Hz
   begin
     prescaler <= 0;
     secs <= secs - 1;

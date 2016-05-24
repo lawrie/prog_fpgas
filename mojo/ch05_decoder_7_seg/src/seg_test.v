@@ -1,14 +1,11 @@
 module seg_test(
-	input CLK,
+   input CLK,
    input [3:0] D,
    output [7:0] SEG,
-	output reg [3:0] DIGIT
+   output [3:0]DIGIT
    );	
-
-always @(*) 
-begin
-	DIGIT = 4'b1110;
-end
+	
+assign DIGIT = 4'b1110;
 
 decoder_7_seg decoder(.CLK (CLK), .SEG	(SEG), .D (D));  
 

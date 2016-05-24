@@ -9,7 +9,7 @@ reg [25:0] count;
 always @(posedge CLK) 
 begin
   count <= count + 1;
-  if ((count == 26'd50000) & enable) // 1kHz
+  if ((count == 26'd49999) & enable) // 1kHz
   begin
     BUZZER <= ~ BUZZER;
     count <= 0;

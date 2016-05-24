@@ -1,0 +1,9 @@
+# User Constraint File for wav_player on Mojo with IO Shield
+
+NET "CLK" LOC = P56; 
+
+# Switches
+NET "switch_play" LOC = "P140" | PULLDOWN;
+
+# Output
+NET "audio_out" LOC = P97; # also LED1

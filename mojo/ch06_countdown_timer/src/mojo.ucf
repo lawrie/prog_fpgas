@@ -1,6 +1,6 @@
 # User Constraint File for 7-seg counter on Mojo with IO Shield
 
-NET "CLK" LOC = P56; 
+NET "CLK" LOC = P56; # 50MHz
 
 # Switches
 NET "switch_up" LOC = "P137" | PULLDOWN;
@@ -26,8 +26,3 @@ NET "DIGIT[0]" LOC = P9;
 
 # Output
 NET "BUZZER" LOC = P97; # also LED1
-
-
-
-
-
