@@ -7,8 +7,3 @@ NET "switch_dn" LOC = "P76" | PULLUP;          # SW5
 
 # Output
 NET "PWM_PIN" LOC = P55; # LED1
-
-
-
-
-

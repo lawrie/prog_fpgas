@@ -4,30 +4,28 @@ module wav_player(
 	 output reg audio_out
     );
 	 
-localparam MEM_SIZE= 3251;
+localparam MEM_SIZE = 3901; // 
 
-reg [7:0] memory[0:MEM_SIZE-1];
+reg [7:0] memory[MEM_SIZE-1:0];
 initial begin
-  $readmemh("sample.txt", memory);
+  $readmemh("01_b3901.txt", memory);
 end
 
 wire s_start;
-debouncer d1(.CLK (CLK), .switch_input (switch_play), .trans_dn (s_start));
+debouncer d1(.CLK (CLK), .switch_input (switch_play), .trans_up (s_start));
+
 reg play = 0;
-
-
-// audio sample at 8kHz
-reg [3:0] prescaler = 0; 
-reg [7:0] counter = 0;
-reg [16:0] address = 0;
-reg [7:0] value = 0;
+reg [3:0] prescaler; 
+reg [7:0] counter;
+reg [19:0] address;
+reg [7:0] value;
 
 always @(posedge CLK)
 begin
   if (play)
   begin
     prescaler <= prescaler + 1;
-    if (prescaler == 6)
+    if (prescaler == 5)  // 8kHz x 256 steps = 2.048 MHz
     begin
       prescaler <= 0;
 	   counter <= counter + 1;
