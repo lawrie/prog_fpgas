@@ -3,7 +3,7 @@
 # Joystick select Push Switch is Clock
 # LEDs 0 to 3 are outputs
 
-NET "Clock" LOC = "P22" | PULLUP | CLOCK_DEDICATED_ROUTE = TRUE;
+NET "Clock" LOC = "P22" | PULLUP | CLOCK_DEDICATED_ROUTE = FALSE;
 
 NET "QA"  LOC = "P5"; 
 NET "QB"  LOC = "P9"; 

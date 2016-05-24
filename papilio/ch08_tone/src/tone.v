@@ -15,8 +15,8 @@ begin
   if (prescaler == CLK_F / 2 - 1) 
   begin
     prescaler <= 0;
-	 counter <= counter + 1;
-	 if (counter == period)
+    counter <= counter + 1;
+    if (counter == period - 1)
     begin
       counter <= 0;
       tone_out <= ~ tone_out;
