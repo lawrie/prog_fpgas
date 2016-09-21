@@ -2,7 +2,7 @@ module seg_test(
    input CLK,
    input [3:0] D,
    output [7:0] SEG,
-   output [3:0]DIGIT
+   output [3:0] DIGIT
    );	
 	
 assign DIGIT = 4'b1110;
