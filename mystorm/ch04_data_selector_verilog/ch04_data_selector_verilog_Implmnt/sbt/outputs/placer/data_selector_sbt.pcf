@@ -1,0 +1,6 @@
+set_location A_RNI7MQ2 22 1 0 # SB_LUT4 (LogicCell: A_RNI7MQ2_LC_0)
+set_location GND -1 -1 -1 # GND
+set_io ipInertedIOPad_A 22 0 0 # ICE_IO
+set_io ipInertedIOPad_B 22 0 1 # ICE_IO
+set_io ipInertedIOPad_Q 24 0 0 # ICE_IO
+set_io ipInertedIOPad_SEL 2 0 0 # ICE_IO

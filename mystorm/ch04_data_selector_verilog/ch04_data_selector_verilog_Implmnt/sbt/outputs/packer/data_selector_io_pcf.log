@@ -1,0 +1,4 @@
+INPUT  SEL 	 location (2, 0, 0) 	 37 	 
+OUTPUT Q 	 location (24, 0, 0) 	 70 	 
+INPUT  B 	 location (22, 0, 1) 	 64 	 
+INPUT  A 	 location (22, 0, 0) 	 63 	 

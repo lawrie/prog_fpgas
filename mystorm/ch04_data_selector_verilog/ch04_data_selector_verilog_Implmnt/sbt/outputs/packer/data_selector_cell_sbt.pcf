@@ -1,0 +1,7 @@
+ble_pack A_RNI7MQ2_LC_22_1_0 { A_RNI7MQ2 }
+clb_pack LT_22_1 { A_RNI7MQ2_LC_22_1_0 }
+set_location LT_22_1 22 1
+set_io SEL 37
+set_io Q 70
+set_io B 64
+set_io A 63

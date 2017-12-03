@@ -1,0 +1,8 @@
+@W: FX689 :"/home/ed/dev/prog_fpgas/mystorm/ch04_data_selector_verilog/src/data_selector.v":9:2:9:3|Unbuffered I/O Q which could cause problems in P&R 
+@W: FX689 :"/home/ed/dev/prog_fpgas/mystorm/ch04_data_selector_verilog/src/data_selector.v":9:2:9:3|Unbuffered I/O Q which could cause problems in P&R 
+@W: FX689 :"/home/ed/dev/prog_fpgas/mystorm/ch04_data_selector_verilog/src/data_selector.v":9:2:9:3|Unbuffered I/O Q which could cause problems in P&R 
+@W: FX689 :"/home/ed/dev/prog_fpgas/mystorm/ch04_data_selector_verilog/src/data_selector.v":9:2:9:3|Unbuffered I/O Q which could cause problems in P&R 
+@W: FX689 :"/home/ed/dev/prog_fpgas/mystorm/ch04_data_selector_verilog/src/data_selector.v":9:2:9:3|Unbuffered I/O Q which could cause problems in P&R 
+@W: FX689 :"/home/ed/dev/prog_fpgas/mystorm/ch04_data_selector_verilog/src/data_selector.v":9:2:9:3|Unbuffered I/O Q which could cause problems in P&R 
+@W: FX689 :"/home/ed/dev/prog_fpgas/mystorm/ch04_data_selector_verilog/src/data_selector.v":9:2:9:3|Unbuffered I/O Q which could cause problems in P&R 
+@W: FX689 :"/home/ed/dev/prog_fpgas/mystorm/ch04_data_selector_verilog/src/data_selector.v":9:2:9:3|Unbuffered I/O Q which could cause problems in P&R 
