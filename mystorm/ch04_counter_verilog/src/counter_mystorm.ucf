@@ -1,0 +1,11 @@
+# User Constraint File for 4 digit counter on Mojo
+
+# Right Push Switch is Clock
+# LEDs 0 to 3 are outputs
+
+NET "Clock" LOC = "P138" | PULLDOWN | CLOCK_DEDICATED_ROUTE = FALSE;
+
+NET "Q[0]"  LOC = "P97"; 
+NET "Q[1]"  LOC = "P98"; 
+NET "Q[2]"  LOC = "P94"; 
+NET "Q[3]"  LOC = "P95"; 

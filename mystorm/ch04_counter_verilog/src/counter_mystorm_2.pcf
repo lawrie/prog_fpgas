@@ -1,0 +1,115 @@
+###############################################################################
+#                                                                             #
+# Copyright 2016 myStorm Copyright and related                                #
+# rights are licensed under the Solderpad Hardware License, Version 0.51      #
+# (the “License”); you may not use this file except in compliance with        #
+# the License. You may obtain a copy of the License at                        #
+# http://solderpad.org/licenses/SHL-0.51. Unless required by applicable       #
+# law or agreed to in writing, software, hardware and materials               #
+# distributed under this License is distributed on an “AS IS” BASIS,          #
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or             #
+# implied. See the License for the specific language governing                #
+# permissions and limitations under the License.                              #
+#                                                                             #
+###############################################################################
+
+# User Constraint File for myStorm
+
+#myStorm leds
+#set_io LED[0] 37
+#set_io LED[1] 38
+#set_io LED[2] 39
+#set_io LED[3] 41
+
+#pmod 1
+set_io PMOD[4] 101
+set_io PMOD[5] 102
+set_io PMOD[6] 104
+set_io PMOD[7] 105
+
+#pmod 2
+set_io PMOD[8] 98
+set_io PMOD[9] 99
+set_io PMOD[10] 97
+set_io PMOD[11] 96
+
+#pmod 3
+set_io PMOD[12] 106
+set_io PMOD[13] 107
+set_io PMOD[14] 110
+set_io PMOD[15] 112
+
+#pmod 4
+set_io PMOD[16] 113
+set_io PMOD[17] 114
+set_io PMOD[18] 143
+set_io PMOD[19] 144
+
+#pmod 5
+set_io PMOD[20] 10
+set_io PMOD[21] 9
+set_io PMOD[22] 2
+set_io PMOD[23] 1
+
+#pmod 6
+set_io PMOD[24] 8
+set_io PMOD[25] 7
+set_io PMOD[26] 4
+set_io PMOD[27] 3
+
+#pmod 7
+set_io PMOD[28] 20
+set_io PMOD[29] 19
+set_io PMOD[30] 16
+set_io PMOD[31] 15
+
+#pmod 8
+set_io PMOD[32] 18
+set_io PMOD[33] 17
+set_io PMOD[34] 12
+set_io PMOD[35] 11
+
+#pmod 9
+set_io PMOD[36] 34
+set_io PMOD[37] 33
+set_io PMOD[38] 22
+set_io PMOD[39] 21
+
+#pmod 10
+set_io PMOD[40] 32
+set_io PMOD[41] 31
+set_io PMOD[42] 26
+set_io PMOD[43] 25
+
+#pmod 11
+set_io PMOD[44] 23
+set_io PMOD[45] 24
+set_io PMOD[46] 28
+set_io PMOD[47] 29
+
+#pmod 12
+set_io PMOD[48] 37
+set_io PMOD[49] 38
+set_io PMOD[50] 39
+set_io PMOD[51] 41
+
+#pmod 13
+set_io PMOD[52] 80
+set_io PMOD[53] 79
+set_io PMOD[54] 64
+set_io PMOD[55] 63
+
+# Onboard LEDs
+#set_io LED[0] B5
+#set_io LED[1] B4
+#set_io LED[2] A2
+#set_io LED[3] A1
+#set_io LED[4] C5
+#set_io LED[5] C4
+#set_io LED[6] B3
+#set_io LED[7] C3
+
+# Onboard 12Mhz oscillator
+#set_io clk J3
+set_io clk 129
+

@@ -1,0 +1,136 @@
+* ******************************************************************************
+
+* iCEcube Router
+
+* Version:            2017.08.27940
+
+* Build Date:         Sep 12 2017 08:09:50
+
+* File Generated:     Dec 2 2017 22:10:39
+
+* Purpose:            Detailed routing info for each net
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Net : Q_c_0
+T_24_7_wire_logic_cluster/lc_2/out
+T_24_7_lc_trk_g2_2
+T_24_7_wire_logic_cluster/lc_5/in_1
+
+T_24_7_wire_logic_cluster/lc_2/out
+T_24_7_lc_trk_g2_2
+T_24_7_wire_logic_cluster/lc_2/in_0
+
+T_24_7_wire_logic_cluster/lc_2/out
+T_24_7_lc_trk_g2_2
+T_24_7_wire_logic_cluster/lc_6/in_0
+
+T_24_7_wire_logic_cluster/lc_2/out
+T_24_7_lc_trk_g2_2
+T_24_7_wire_logic_cluster/lc_0/in_0
+
+T_24_7_wire_logic_cluster/lc_2/out
+T_24_7_sp4_h_l_9
+T_28_7_sp4_h_l_0
+T_31_3_sp4_v_t_37
+T_31_0_span4_vert_32
+T_31_0_lc_trk_g1_0
+T_31_0_wire_io_cluster/io_1/D_OUT_0
+
+End 
+
+Net : Q_c_1
+T_24_7_wire_logic_cluster/lc_6/out
+T_24_7_lc_trk_g1_6
+T_24_7_wire_logic_cluster/lc_5/in_0
+
+T_24_7_wire_logic_cluster/lc_6/out
+T_24_7_lc_trk_g1_6
+T_24_7_wire_logic_cluster/lc_6/in_1
+
+T_24_7_wire_logic_cluster/lc_6/out
+T_24_7_lc_trk_g1_6
+T_24_7_wire_logic_cluster/lc_0/in_1
+
+T_24_7_wire_logic_cluster/lc_6/out
+T_24_7_sp4_h_l_1
+T_27_3_sp4_v_t_42
+T_27_0_span4_vert_31
+T_27_0_span4_horz_r_1
+T_30_0_lc_trk_g1_5
+T_30_0_wire_io_cluster/io_0/D_OUT_0
+
+End 
+
+Net : Q_c_2
+T_24_7_wire_logic_cluster/lc_0/out
+T_24_7_lc_trk_g1_0
+T_24_7_input_2_5
+T_24_7_wire_logic_cluster/lc_5/in_2
+
+T_24_7_wire_logic_cluster/lc_0/out
+T_24_7_lc_trk_g1_0
+T_24_7_wire_logic_cluster/lc_0/in_3
+
+T_24_7_wire_logic_cluster/lc_0/out
+T_24_7_sp4_h_l_5
+T_27_3_sp4_v_t_40
+T_27_0_span4_vert_25
+T_27_0_span4_horz_r_0
+T_30_0_lc_trk_g1_4
+T_30_0_wire_io_cluster/io_1/D_OUT_0
+
+End 
+
+Net : Q_c_3
+T_24_7_wire_logic_cluster/lc_5/out
+T_24_7_lc_trk_g1_5
+T_24_7_wire_logic_cluster/lc_5/in_3
+
+T_24_7_wire_logic_cluster/lc_5/out
+T_24_7_sp12_h_l_1
+T_28_7_sp4_h_l_4
+T_31_3_sp4_v_t_47
+T_31_0_span4_vert_34
+T_31_0_lc_trk_g0_2
+T_31_0_wire_io_cluster/io_0/D_OUT_0
+
+End 
+
+Net : Clock_c_g
+T_0_17_wire_gbuf/out
+T_0_0_fabout_3
+T_0_0_glb_netwk_3
+T_24_7_wire_logic_cluster/lc_3/clk
+
+T_0_17_wire_gbuf/out
+T_0_0_fabout_3
+T_0_0_glb_netwk_3
+T_24_7_wire_logic_cluster/lc_3/clk
+
+T_0_17_wire_gbuf/out
+T_0_0_fabout_3
+T_0_0_glb_netwk_3
+T_24_7_wire_logic_cluster/lc_3/clk
+
+T_0_17_wire_gbuf/out
+T_0_0_fabout_3
+T_0_0_glb_netwk_3
+T_24_7_wire_logic_cluster/lc_3/clk
+
+End 
+
+Net : Clock_ibuf_gb_io_gb_input
+T_29_0_wire_io_cluster/io_0/D_IN_0
+T_29_0_span12_vert_8
+T_18_5_sp12_h_l_0
+T_6_5_sp12_h_l_0
+T_5_5_sp12_v_t_23
+T_0_17_span12_horz_15
+T_0_17_lc_trk_g0_7
+T_0_17_wire_gbuf/in
+
+End 
+

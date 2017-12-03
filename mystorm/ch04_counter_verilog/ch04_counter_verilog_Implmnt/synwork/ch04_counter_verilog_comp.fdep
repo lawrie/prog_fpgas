@@ -1,0 +1,15 @@
+#OPTIONS:"|-layerid|0|-orig_srs|/home/ed/dev/prog_fpgas/mystorm/ch04_counter_verilog/ch04_counter_verilog_Implmnt/synwork/ch04_counter_verilog_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|/home/ed/dev/prog_fpgas/mystorm/ch04_counter_verilog/|-I|/home/ed/lscc/iCEcube2.2017.08/synpbase/lib|-v2001|-devicelib|/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/generic/sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work"
+#CUR:"/home/ed/lscc/iCEcube2.2017.08/synpbase/linux_a_64/c_ver":1512226239
+#CUR:"/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/generic/sb_ice40.v":1512226239
+#CUR:"/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/vlog/hypermods.v":1512226239
+#CUR:"/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/vlog/umr_capim.v":1512226239
+#CUR:"/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/vlog/scemi_objects.v":1512226239
+#CUR:"/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/vlog/scemi_pipes.svh":1512226239
+#CUR:"/home/ed/dev/prog_fpgas/mystorm/ch04_counter_verilog/src/counter.v":1512228569
+0			"/home/ed/dev/prog_fpgas/mystorm/ch04_counter_verilog/src/counter.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+#Dependency Lists(Users Of)
+0 -1
+#Design Unit to File Association
+module work counter 0

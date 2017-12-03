@@ -1,0 +1,29 @@
+* ******************************************************************************
+
+* iCEcube Router
+
+* Version:            2017.08.27940
+
+* Build Date:         Sep 12 2017 08:09:20
+
+* File Generated:     Dec 2 2017 22:10:28
+
+* Purpose:            Router runtime info
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Executing : /home/ed/lscc/iCEcube2.2017.08/sbt_backend/bin/linux/opt/sbrouter /home/ed/lscc/iCEcube2.2017.08/sbt_backend/devices/ICE40P04.dev /home/ed/dev/prog_fpgas/mystorm/ch04_counter_verilog/ch04_counter_verilog_Implmnt/sbt/netlist/oadb-counter /home/ed/lscc/iCEcube2.2017.08/sbt_backend/devices/ice40HX8K.lib /home/ed/dev/prog_fpgas/mystorm/ch04_counter_verilog/ch04_counter_verilog_Implmnt/sbt/outputs/packer/counter_pk.sdc --outdir /home/ed/dev/prog_fpgas/mystorm/ch04_counter_verilog/ch04_counter_verilog_Implmnt/sbt/outputs/router --sdf_file /home/ed/dev/prog_fpgas/mystorm/ch04_counter_verilog/ch04_counter_verilog_Implmnt/sbt/outputs/simulation_netlist/counter_sbt.sdf --pin_permutation 
+I1203: Reading Design counter
+I1202: Reading Architecture of device iCE40HX4K
+I1209: Started routing
+I1223: Total Nets : 6 
+I1212: Iteration  1 :     3 unrouted : 0 seconds
+I1212: Iteration  2 :     0 unrouted : 0 seconds
+I1215: Routing is successful
+I1206: Completed routing
+I1204: Writing Design counter
+I1210: Writing routes
+I1218: Exiting the router
+I1224: Router run-time : 11 seconds

@@ -1,0 +1,22 @@
+---------------------------------------
+Resource Usage Report for counter 
+
+Mapping to part: ice40hx4ktq144
+Cell usage:
+SB_DFF          4 uses
+SB_LUT4         4 uses
+
+I/O ports: 5
+I/O primitives: 5
+SB_GB_IO       1 use
+SB_IO          4 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   4 (0%)
+
+@S |Mapping Summary:
+Total  LUTs: 4 (0%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 4 = 4 
+
