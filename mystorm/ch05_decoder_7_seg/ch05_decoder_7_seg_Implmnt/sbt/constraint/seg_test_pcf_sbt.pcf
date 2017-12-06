@@ -1,0 +1,45 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2017.08.27940
+
+# File Generated:     Dec 6 2017 23:12:58
+
+# Family & Device:    iCE40HX4K
+
+# Package:            TQ144
+
+# ##############################################################################
+
+###MergeFF List 6
+set_io_ff SEG1[1] -out ON
+set_io_ff SEG1[2] -out ON
+set_io_ff SEG1[3] -out ON
+set_io_ff SEG1[4] -out ON
+set_io_ff SEG1[5] -out ON
+set_io_ff SEG1[6] -out ON
+
+###IOSet List 21
+set_io CLK 129
+set_io DIGIT[0] 11
+set_io DIGIT[1] 97
+set_io D[0] 37
+set_io D[1] 38
+set_io D[2] 39
+set_io D[3] 41
+set_io SEG1[0] 94
+set_io SEG1[1] 91
+set_io SEG1[2] 88
+set_io SEG1[3] 85
+set_io SEG1[4] 105
+set_io SEG1[5] 102
+set_io SEG1[6] 99
+set_io SEG2[0] 8
+set_io SEG2[1] 7
+set_io SEG2[2] 4
+set_io SEG2[3] 3
+set_io SEG2[4] 18
+set_io SEG2[5] 17
+set_io SEG2[6] 12
+

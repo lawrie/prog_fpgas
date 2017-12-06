@@ -1,0 +1,42 @@
+ble_pack decoder2.SEG_1_LC_2_11_3 { decoder2.SEG_RNO[1], decoder2.SEG[1] }
+clb_pack LT_2_11 { decoder2.SEG_1_LC_2_11_3 }
+set_location LT_2_11 2 11
+ble_pack CONSTANT_ONE_LUT4_LC_3_14_0 { CONSTANT_ONE_LUT4 }
+clb_pack LT_3_14 { CONSTANT_ONE_LUT4_LC_3_14_0 }
+set_location LT_3_14 3 14
+ble_pack decoder.SEG_2_6_0__N_14_i_LC_24_7_6 { decoder.SEG_2_6_0_.N_14_i }
+clb_pack LT_24_7 { decoder.SEG_2_6_0__N_14_i_LC_24_7_6 }
+set_location LT_24_7 24 7
+ble_pack decoder.SEG_2_6_0__N_13_i_LC_24_9_3 { decoder.SEG_2_6_0_.N_13_i }
+clb_pack LT_24_9 { decoder.SEG_2_6_0__N_13_i_LC_24_9_3 }
+set_location LT_24_9 24 9
+ble_pack decoder.SEG_2_6_0__N_11_i_LC_24_10_5 { decoder.SEG_2_6_0_.N_11_i }
+clb_pack LT_24_10 { decoder.SEG_2_6_0__N_11_i_LC_24_10_5 }
+set_location LT_24_10 24 10
+ble_pack decoder.SEG_2_6_0__N_16_i_LC_24_11_3 { decoder.SEG_2_6_0_.N_16_i }
+ble_pack decoder.SEG_2_6_0__N_19_i_LC_24_11_4 { decoder.SEG_2_6_0_.N_19_i }
+ble_pack decoder.SEG_2_6_0__N_20_i_LC_24_11_5 { decoder.SEG_2_6_0_.N_20_i }
+ble_pack decoder.SEG_2_6_0__N_6_i_LC_24_11_6 { decoder.SEG_2_6_0_.N_6_i }
+clb_pack LT_24_11 { decoder.SEG_2_6_0__N_16_i_LC_24_11_3, decoder.SEG_2_6_0__N_19_i_LC_24_11_4, decoder.SEG_2_6_0__N_20_i_LC_24_11_5, decoder.SEG_2_6_0__N_6_i_LC_24_11_6 }
+set_location LT_24_11 24 11
+set_io SEG2[6] 12
+set_io SEG2[5] 17
+set_io SEG2[4] 18
+set_io SEG2[3] 3
+set_io SEG2[2] 4
+set_io SEG2[1] 7
+set_io SEG2[0] 8
+set_io SEG1[6] 99
+set_io SEG1[5] 102
+set_io SEG1[4] 105
+set_io SEG1[3] 85
+set_io SEG1[2] 88
+set_io SEG1[1] 91
+set_io SEG1[0] 94
+set_io D[3] 41
+set_io D[2] 39
+set_io D[1] 38
+set_io D[0] 37
+set_io DIGIT[1] 97
+set_io DIGIT[0] 11
+set_io CLK 129

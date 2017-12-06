@@ -1,0 +1,24 @@
+---------------------------------------
+Resource Usage Report for seg_test 
+
+Mapping to part: ice40hx4ktq144
+Cell usage:
+GND             2 uses
+SB_DFF          8 uses
+VCC             2 uses
+SB_LUT4         8 uses
+
+I/O ports: 21
+I/O primitives: 21
+SB_GB_IO       1 use
+SB_IO          20 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   8 (0%)
+
+@S |Mapping Summary:
+Total  LUTs: 8 (0%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 8 = 8 
+

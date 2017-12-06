@@ -1,0 +1,98 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2017.08.27940
+
+* Build Date:         Sep 12 2017 08:02:28
+
+* File Generated:     Dec 6 2017 23:16:59
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 0 seconds
+
+Device Info:
+------------
+    Device Family: iCE40
+    Device:        iCE40HX4K
+    Package:       TQ144
+
+Design statistics:
+------------------
+    FFs:                  1
+    LUTs:                 9
+    RAMs:                 0
+    IOBs:                 21
+    GBs:                  1
+    PLLs:                 0
+    Warm Boots:           0
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 9/3520
+        Combinational Logic Cells: 8        out of   3520      0.227273%
+        Sequential Logic Cells:    1        out of   3520      0.0284091%
+        Logic Tiles:               6        out of   440       1.36364%
+    Registers: 
+        Logic Registers:           1        out of   3520      0.0284091%
+        IO Registers:              7        out of   880       0.795455
+    Block RAMs:                    0        out of   20        0%
+    Warm Boots:                    0        out of   1         0%
+    Pins:
+        Input Pins:                5        out of   107       4.6729%
+        Output Pins:               16       out of   107       14.9533%
+        InOut Pins:                0        out of   107       0%
+    Global Buffers:                1        out of   8         12.5%
+    PLLs:                          0        out of   2         0%
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 8        out of   28        28.5714%
+    Bank 1: 8        out of   29        27.5862%
+    Bank 0: 1        out of   27        3.7037%
+    Bank 2: 4        out of   23        17.3913%
+
+Detailed I/O Info:
+------------------
+    Input Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function        Signal Name
+    ----------  ---------  -----------  -------  -------  -----------        -----------
+    37          Input      SB_LVCMOS    No       2        Simple Input       D[0]      
+    38          Input      SB_LVCMOS    No       2        Simple Input       D[1]      
+    39          Input      SB_LVCMOS    No       2        Simple Input       D[2]      
+    41          Input      SB_LVCMOS    No       2        Simple Input       D[3]      
+    129         Input      SB_LVCMOS    No       0        Simple Input       CLK       
+
+    Output Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function        Signal Name
+    ----------  ---------  -----------  -------  -------  -----------        -----------
+    3           Output     SB_LVCMOS    No       3        Simple Output      SEG2[3]   
+    4           Output     SB_LVCMOS    No       3        Simple Output      SEG2[2]   
+    7           Output     SB_LVCMOS    No       3        Simple Output      SEG2[1]   
+    8           Output     SB_LVCMOS    No       3        Simple Output      SEG2[0]   
+    11          Output     SB_LVCMOS    No       3        Simple Output      DIGIT[0]  
+    12          Output     SB_LVCMOS    No       3        Simple Output      SEG2[6]   
+    17          Output     SB_LVCMOS    No       3        Simple Output      SEG2[5]   
+    18          Output     SB_LVCMOS    No       3        Simple Output      SEG2[4]   
+    85          Output     SB_LVCMOS    No       1        Output Registered  SEG1[3]   
+    88          Output     SB_LVCMOS    No       1        Output Registered  SEG1[2]   
+    91          Output     SB_LVCMOS    No       1        Output Registered  SEG1[1]   
+    94          Output     SB_LVCMOS    No       1        Output Registered  SEG1[0]   
+    97          Output     SB_LVCMOS    No       1        Simple Output      DIGIT[1]  
+    99          Output     SB_LVCMOS    No       1        Output Registered  SEG1[6]   
+    102         Output     SB_LVCMOS    No       1        Output Registered  SEG1[5]   
+    105         Output     SB_LVCMOS    No       1        Output Registered  SEG1[4]   
+
+Detailed Global Buffer Info:
+----------------------------
+    Buffer Number  IO Bank  Driven By  Fanout  Signal Name
+    -------------  -------  ---------  ------  -----------
+    7              0        IO         8       CLK_c_g  

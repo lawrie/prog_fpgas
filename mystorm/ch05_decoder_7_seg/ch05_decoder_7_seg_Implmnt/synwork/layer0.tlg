@@ -1,0 +1,6 @@
+Selecting top level module seg_test
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch05_decoder_7_seg/src/decoder_7_seg.v":1:7:1:19|Synthesizing module decoder_7_seg in library work.
+
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch05_decoder_7_seg/src/seg_test.v":1:7:1:14|Synthesizing module seg_test in library work.
+
+@W: CS263 :"/home/ed/dev/prog_fpgas/mystorm/ch05_decoder_7_seg/src/seg_test.v":14:52:14:53|Port-width mismatch for port D. The port definition is 4 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
