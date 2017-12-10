@@ -1,0 +1,22 @@
+----------------------------------------------------------------------
+Report for cell seg_test.TECH
+Register bits:  7 of 3520 (0.199%)
+I/O cells:      0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF         7          100.0
+                           SB_GB_IO         1          100.0
+                              SB_IO        24          100.0
+                            SB_LUT4         7          100.0
+                        VERIFIC_PWR         1          100.0
+SUB MODULES
+                      decoder_7_seg         1
+                              TOTAL        41
+----------------------------------------------------------------------
+Report for cell decoder_7_seg.v1
+Instance Path : decoder
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                             SB_DFF         7          100.0
+                            SB_LUT4         6           85.7
+                              TOTAL        13

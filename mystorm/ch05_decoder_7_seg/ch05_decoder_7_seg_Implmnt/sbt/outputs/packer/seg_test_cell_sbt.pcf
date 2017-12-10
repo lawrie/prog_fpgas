@@ -1,42 +1,39 @@
-ble_pack decoder2.SEG_1_LC_2_11_3 { decoder2.SEG_RNO[1], decoder2.SEG[1] }
-clb_pack LT_2_11 { decoder2.SEG_1_LC_2_11_3 }
-set_location LT_2_11 2 11
-ble_pack CONSTANT_ONE_LUT4_LC_3_14_0 { CONSTANT_ONE_LUT4 }
-clb_pack LT_3_14 { CONSTANT_ONE_LUT4_LC_3_14_0 }
-set_location LT_3_14 3 14
-ble_pack decoder.SEG_2_6_0__N_14_i_LC_24_7_6 { decoder.SEG_2_6_0_.N_14_i }
-clb_pack LT_24_7 { decoder.SEG_2_6_0__N_14_i_LC_24_7_6 }
-set_location LT_24_7 24 7
-ble_pack decoder.SEG_2_6_0__N_13_i_LC_24_9_3 { decoder.SEG_2_6_0_.N_13_i }
-clb_pack LT_24_9 { decoder.SEG_2_6_0__N_13_i_LC_24_9_3 }
-set_location LT_24_9 24 9
-ble_pack decoder.SEG_2_6_0__N_11_i_LC_24_10_5 { decoder.SEG_2_6_0_.N_11_i }
-clb_pack LT_24_10 { decoder.SEG_2_6_0__N_11_i_LC_24_10_5 }
-set_location LT_24_10 24 10
-ble_pack decoder.SEG_2_6_0__N_16_i_LC_24_11_3 { decoder.SEG_2_6_0_.N_16_i }
-ble_pack decoder.SEG_2_6_0__N_19_i_LC_24_11_4 { decoder.SEG_2_6_0_.N_19_i }
-ble_pack decoder.SEG_2_6_0__N_20_i_LC_24_11_5 { decoder.SEG_2_6_0_.N_20_i }
-ble_pack decoder.SEG_2_6_0__N_6_i_LC_24_11_6 { decoder.SEG_2_6_0_.N_6_i }
-clb_pack LT_24_11 { decoder.SEG_2_6_0__N_16_i_LC_24_11_3, decoder.SEG_2_6_0__N_19_i_LC_24_11_4, decoder.SEG_2_6_0__N_20_i_LC_24_11_5, decoder.SEG_2_6_0__N_6_i_LC_24_11_6 }
-set_location LT_24_11 24 11
-set_io SEG2[6] 12
-set_io SEG2[5] 17
-set_io SEG2[4] 18
-set_io SEG2[3] 3
-set_io SEG2[2] 4
-set_io SEG2[1] 7
-set_io SEG2[0] 8
-set_io SEG1[6] 99
+ble_pack CONSTANT_ONE_LUT4_LC_1_13_3 { CONSTANT_ONE_LUT4 }
+clb_pack LT_1_13 { CONSTANT_ONE_LUT4_LC_1_13_3 }
+set_location LT_1_13 1 13
+ble_pack decoder.SEG_i2_LC_5_11_1 { decoder.D_3__I_0_Mux_1_i15_4_lut_4_lut, decoder.SEG_i2 }
+ble_pack decoder.SEG_i4_LC_5_11_2 { decoder.D_3__I_0_Mux_3_i15_4_lut, decoder.SEG_i4 }
+ble_pack decoder.SEG_i5_LC_5_11_3 { decoder.D_3__I_0_Mux_4_i15_4_lut, decoder.SEG_i5 }
+ble_pack decoder.SEG_i6_LC_5_11_4 { decoder.D_3__I_0_Mux_5_i15_4_lut, decoder.SEG_i6 }
+ble_pack decoder.SEG_i7_LC_5_11_5 { decoder.D_3__I_0_Mux_6_i15_4_lut, decoder.SEG_i7 }
+ble_pack decoder.SEG_i3_LC_5_11_6 { i159_4_lut, decoder.SEG_i3 }
+clb_pack LT_5_11 { decoder.SEG_i2_LC_5_11_1, decoder.SEG_i4_LC_5_11_2, decoder.SEG_i5_LC_5_11_3, decoder.SEG_i6_LC_5_11_4, decoder.SEG_i7_LC_5_11_5, decoder.SEG_i3_LC_5_11_6 }
+set_location LT_5_11 5 11
+ble_pack decoder.SEG_i1_LC_6_9_3 { decoder.D_3__I_0_Mux_0_i15_4_lut_4_lut, decoder.SEG_i1 }
+clb_pack LT_6_9 { decoder.SEG_i1_LC_6_9_3 }
+set_location LT_6_9 6 9
+set_io leds[3] 70
+set_io leds[2] 68
+set_io leds[1] 67
+set_io leds[0] 71
+set_io SEG2[6] 20
+set_io SEG2[5] 19
+set_io SEG2[4] 16
+set_io SEG2[3] 15
+set_io SEG2[2] 10
+set_io SEG2[1] 9
+set_io SEG2[0] 2
+set_io SEG1[6] 105
 set_io SEG1[5] 102
-set_io SEG1[4] 105
-set_io SEG1[3] 85
-set_io SEG1[2] 88
+set_io SEG1[4] 99
+set_io SEG1[3] 97
+set_io SEG1[2] 94
 set_io SEG1[1] 91
-set_io SEG1[0] 94
-set_io D[3] 41
-set_io D[2] 39
-set_io D[1] 38
-set_io D[0] 37
-set_io DIGIT[1] 97
-set_io DIGIT[0] 11
+set_io SEG1[0] 88
+set_io D[3] 37
+set_io D[2] 38
+set_io D[1] 39
+set_io D[0] 41
+set_io DIGIT[1] 34
+set_io DIGIT[0] 1
 set_io CLK 129

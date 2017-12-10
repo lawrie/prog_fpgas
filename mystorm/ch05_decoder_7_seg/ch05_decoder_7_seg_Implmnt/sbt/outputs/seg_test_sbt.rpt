@@ -6,7 +6,7 @@
 
 * Build Date:         Sep 12 2017 08:02:28
 
-* File Generated:     Dec 6 2017 23:16:59
+* File Generated:     Dec 10 2017 21:40:27
 
 * Purpose:            General info of design implementation
 
@@ -27,87 +27,91 @@ Device Info:
 
 Design statistics:
 ------------------
-    FFs:                  1
-    LUTs:                 9
+    FFs:                  7
+    LUTs:                 8
     RAMs:                 0
-    IOBs:                 21
+    IOBs:                 25
     GBs:                  1
     PLLs:                 0
     Warm Boots:           0
 
 Logic Resource Utilization:
 ---------------------------
-    Total Logic Cells: 9/3520
-        Combinational Logic Cells: 8        out of   3520      0.227273%
-        Sequential Logic Cells:    1        out of   3520      0.0284091%
-        Logic Tiles:               6        out of   440       1.36364%
+    Total Logic Cells: 8/3520
+        Combinational Logic Cells: 1        out of   3520      0.0284091%
+        Sequential Logic Cells:    7        out of   3520      0.198864%
+        Logic Tiles:               3        out of   440       0.681818%
     Registers: 
-        Logic Registers:           1        out of   3520      0.0284091%
-        IO Registers:              7        out of   880       0.795455
+        Logic Registers:           7        out of   3520      0.198864%
+        IO Registers:              0        out of   880       0
     Block RAMs:                    0        out of   20        0%
     Warm Boots:                    0        out of   1         0%
     Pins:
         Input Pins:                5        out of   107       4.6729%
-        Output Pins:               16       out of   107       14.9533%
+        Output Pins:               20       out of   107       18.6916%
         InOut Pins:                0        out of   107       0%
     Global Buffers:                1        out of   8         12.5%
     PLLs:                          0        out of   2         0%
 
 IO Bank Utilization:
 --------------------
-    Bank 3: 8        out of   28        28.5714%
-    Bank 1: 8        out of   29        27.5862%
+    Bank 3: 9        out of   28        32.1429%
+    Bank 1: 7        out of   29        24.1379%
     Bank 0: 1        out of   27        3.7037%
-    Bank 2: 4        out of   23        17.3913%
+    Bank 2: 8        out of   23        34.7826%
 
 Detailed I/O Info:
 ------------------
     Input Pins: 
-    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function        Signal Name
-    ----------  ---------  -----------  -------  -------  -----------        -----------
-    37          Input      SB_LVCMOS    No       2        Simple Input       D[0]      
-    38          Input      SB_LVCMOS    No       2        Simple Input       D[1]      
-    39          Input      SB_LVCMOS    No       2        Simple Input       D[2]      
-    41          Input      SB_LVCMOS    No       2        Simple Input       D[3]      
-    129         Input      SB_LVCMOS    No       0        Simple Input       CLK       
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
+    ----------  ---------  -----------  -------  -------  -----------    -----------
+    37          Input      SB_LVCMOS    No       2        Simple Input   D[3]      
+    38          Input      SB_LVCMOS    No       2        Simple Input   D[2]      
+    39          Input      SB_LVCMOS    No       2        Simple Input   D[1]      
+    41          Input      SB_LVCMOS    No       2        Simple Input   D[0]      
+    129         Input      SB_LVCMOS    No       0        Simple Input   CLK       
 
     Output Pins: 
-    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function        Signal Name
-    ----------  ---------  -----------  -------  -------  -----------        -----------
-    3           Output     SB_LVCMOS    No       3        Simple Output      SEG2[3]   
-    4           Output     SB_LVCMOS    No       3        Simple Output      SEG2[2]   
-    7           Output     SB_LVCMOS    No       3        Simple Output      SEG2[1]   
-    8           Output     SB_LVCMOS    No       3        Simple Output      SEG2[0]   
-    11          Output     SB_LVCMOS    No       3        Simple Output      DIGIT[0]  
-    12          Output     SB_LVCMOS    No       3        Simple Output      SEG2[6]   
-    17          Output     SB_LVCMOS    No       3        Simple Output      SEG2[5]   
-    18          Output     SB_LVCMOS    No       3        Simple Output      SEG2[4]   
-    85          Output     SB_LVCMOS    No       1        Output Registered  SEG1[3]   
-    88          Output     SB_LVCMOS    No       1        Output Registered  SEG1[2]   
-    91          Output     SB_LVCMOS    No       1        Output Registered  SEG1[1]   
-    94          Output     SB_LVCMOS    No       1        Output Registered  SEG1[0]   
-    97          Output     SB_LVCMOS    No       1        Simple Output      DIGIT[1]  
-    99          Output     SB_LVCMOS    No       1        Output Registered  SEG1[6]   
-    102         Output     SB_LVCMOS    No       1        Output Registered  SEG1[5]   
-    105         Output     SB_LVCMOS    No       1        Output Registered  SEG1[4]   
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function    Signal Name
+    ----------  ---------  -----------  -------  -------  -----------    -----------
+    1           Output     SB_LVCMOS    No       3        Simple Output  DIGIT[0]  
+    2           Output     SB_LVCMOS    No       3        Simple Output  SEG2[0]   
+    9           Output     SB_LVCMOS    No       3        Simple Output  SEG2[1]   
+    10          Output     SB_LVCMOS    No       3        Simple Output  SEG2[2]   
+    15          Output     SB_LVCMOS    No       3        Simple Output  SEG2[3]   
+    16          Output     SB_LVCMOS    No       3        Simple Output  SEG2[4]   
+    19          Output     SB_LVCMOS    No       3        Simple Output  SEG2[5]   
+    20          Output     SB_LVCMOS    No       3        Simple Output  SEG2[6]   
+    34          Output     SB_LVCMOS    No       3        Simple Output  DIGIT[1]  
+    67          Output     SB_LVCMOS    No       2        Simple Output  leds[1]   
+    68          Output     SB_LVCMOS    No       2        Simple Output  leds[2]   
+    70          Output     SB_LVCMOS    No       2        Simple Output  leds[3]   
+    71          Output     SB_LVCMOS    No       2        Simple Output  leds[0]   
+    88          Output     SB_LVCMOS    No       1        Simple Output  SEG1[0]   
+    91          Output     SB_LVCMOS    No       1        Simple Output  SEG1[1]   
+    94          Output     SB_LVCMOS    No       1        Simple Output  SEG1[2]   
+    97          Output     SB_LVCMOS    No       1        Simple Output  SEG1[3]   
+    99          Output     SB_LVCMOS    No       1        Simple Output  SEG1[4]   
+    102         Output     SB_LVCMOS    No       1        Simple Output  SEG1[5]   
+    105         Output     SB_LVCMOS    No       1        Simple Output  SEG1[6]   
 
 Detailed Global Buffer Info:
 ----------------------------
     Buffer Number  IO Bank  Driven By  Fanout  Signal Name
     -------------  -------  ---------  ------  -----------
-    7              0        IO         8       CLK_c_g  
+    7              0        IO         7       CLK_c  
 
 
 Router Summary:
 ---------------
     Status:  Successful
-    Runtime: 10 seconds
+    Runtime: 9 seconds
 
 Routing Resource Utilization:
 -----------------------------
-              Local line of tile      106 out of 146184      0.0725114%
-                          Span 4       35 out of  29696      0.117861%
-                         Span 12       27 out of   5632      0.479403%
+              Local line of tile       99 out of 146184      0.0677229%
+                          Span 4       50 out of  29696      0.168373%
+                         Span 12       53 out of   5632      0.941051%
                   Global network        1 out of      8      12.5%
       Vertical Inter-LUT Connect        0 out of   6720      0%
 

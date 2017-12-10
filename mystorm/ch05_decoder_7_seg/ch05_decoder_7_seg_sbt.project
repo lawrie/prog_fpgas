@@ -3,7 +3,7 @@ ProjectVersion=2.0
 Version=Lattice Semiconductor Corporation iCEcube - Release: 2017.08.27940 - Build Date: Sep 12 2017 08:41:24
 ProjectName=ch05_decoder_7_seg
 Vendor=SiliconBlue
-Synthesis=synplify
+Synthesis=lse
 ProjectVFiles=src/decoder_7_seg.v=work,src/seg_test.v=work
 ProjectCFiles=
 CurImplementation=ch05_decoder_7_seg_Implmnt

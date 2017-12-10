@@ -1,32 +1,41 @@
-set_location decoder.SEG_2_6_0_.N_11_i 24 10 5 # SB_LUT4 (LogicCell: decoder.SEG_2_6_0_.N_11_i_LC_0)
-set_location decoder.SEG_2_6_0_.N_13_i 24 9 3 # SB_LUT4 (LogicCell: decoder.SEG_2_6_0_.N_13_i_LC_1)
-set_location decoder.SEG_2_6_0_.N_14_i 24 7 6 # SB_LUT4 (LogicCell: decoder.SEG_2_6_0_.N_14_i_LC_2)
-set_location decoder.SEG_2_6_0_.N_16_i 24 11 3 # SB_LUT4 (LogicCell: decoder.SEG_2_6_0_.N_16_i_LC_3)
-set_location decoder.SEG_2_6_0_.N_19_i 24 11 4 # SB_LUT4 (LogicCell: decoder.SEG_2_6_0_.N_19_i_LC_4)
-set_location decoder.SEG_2_6_0_.N_20_i 24 11 5 # SB_LUT4 (LogicCell: decoder.SEG_2_6_0_.N_20_i_LC_5)
-set_location decoder.SEG_2_6_0_.N_6_i 24 11 6 # SB_LUT4 (LogicCell: decoder.SEG_2_6_0_.N_6_i_LC_6)
-set_location decoder2.SEG_RNO[1] 2 11 3 # SB_LUT4 (LogicCell: decoder2.SEG[1]_LC_7)
-set_location decoder2.SEG[1] 2 11 3 # SB_DFF (LogicCell: decoder2.SEG[1]_LC_7)
-set_io CLK_ibuf_gb_io 12 21 1 # ICE_GB_IO
-set_io DIGIT_obuf[0] 0 15 1 # ICE_IO
-set_io DIGIT_obuf[1] 25 14 0 # ICE_IO
-set_io D_ibuf[0] 2 0 0 # ICE_IO
-set_io D_ibuf[1] 2 0 1 # ICE_IO
-set_io D_ibuf[2] 3 0 1 # ICE_IO
-set_io D_ibuf[3] 4 0 1 # ICE_IO
+set_location decoder.D_3__I_0_Mux_0_i15_4_lut_4_lut 6 9 3 # SB_LUT4 (LogicCell: decoder.SEG_i1_LC_0)
+set_location decoder.SEG_i1 6 9 3 # SB_DFF (LogicCell: decoder.SEG_i1_LC_0)
+set_location decoder.D_3__I_0_Mux_1_i15_4_lut_4_lut 5 11 1 # SB_LUT4 (LogicCell: decoder.SEG_i2_LC_1)
+set_location decoder.SEG_i2 5 11 1 # SB_DFF (LogicCell: decoder.SEG_i2_LC_1)
+set_location decoder.D_3__I_0_Mux_3_i15_4_lut 5 11 2 # SB_LUT4 (LogicCell: decoder.SEG_i4_LC_2)
+set_location decoder.SEG_i4 5 11 2 # SB_DFF (LogicCell: decoder.SEG_i4_LC_2)
+set_location decoder.D_3__I_0_Mux_4_i15_4_lut 5 11 3 # SB_LUT4 (LogicCell: decoder.SEG_i5_LC_3)
+set_location decoder.SEG_i5 5 11 3 # SB_DFF (LogicCell: decoder.SEG_i5_LC_3)
+set_location decoder.D_3__I_0_Mux_5_i15_4_lut 5 11 4 # SB_LUT4 (LogicCell: decoder.SEG_i6_LC_4)
+set_location decoder.SEG_i6 5 11 4 # SB_DFF (LogicCell: decoder.SEG_i6_LC_4)
+set_location decoder.D_3__I_0_Mux_6_i15_4_lut 5 11 5 # SB_LUT4 (LogicCell: decoder.SEG_i7_LC_5)
+set_location decoder.SEG_i7 5 11 5 # SB_DFF (LogicCell: decoder.SEG_i7_LC_5)
+set_location i159_4_lut 5 11 6 # SB_LUT4 (LogicCell: decoder.SEG_i3_LC_6)
+set_location decoder.SEG_i3 5 11 6 # SB_DFF (LogicCell: decoder.SEG_i3_LC_6)
+set_io CLK_pad 12 21 1 # ICE_GB_IO
+set_io DIGIT_pad_0 0 20 1 # ICE_IO
+set_io DIGIT_pad_1 0 1 0 # ICE_IO
 set_location GND -1 -1 -1 # GND
-set_io SEG1_obuf[0] 25 11 0 # ICE_IO
-set_io SEG1_obuf[1] 25 10 0 # ICE_IO
-set_io SEG1_obuf[2] 25 9 0 # ICE_IO
-set_io SEG1_obuf[3] 25 7 1 # ICE_IO
-set_io SEG1_obuf[4] 25 19 0 # ICE_IO
-set_io SEG1_obuf[5] 25 17 0 # ICE_IO
-set_io SEG1_obuf[6] 25 15 1 # ICE_IO
-set_io SEG2_obuf[0] 0 18 0 # ICE_IO
-set_io SEG2_obuf[1] 0 18 1 # ICE_IO
-set_io SEG2_obuf[2] 0 19 0 # ICE_IO
-set_io SEG2_obuf[3] 0 19 1 # ICE_IO
-set_io SEG2_obuf[4] 0 12 0 # ICE_IO
-set_io SEG2_obuf[5] 0 12 1 # ICE_IO
-set_io SEG2_obuf[6] 0 15 0 # ICE_IO
-set_location CONSTANT_ONE_LUT4 3 14 0 # SB_LUT4 (LogicCell: LC_8)
+set_io SEG1_pad_0 25 9 0 # ICE_IO
+set_io SEG1_pad_1 25 10 0 # ICE_IO
+set_io SEG1_pad_2 25 11 0 # ICE_IO
+set_io SEG1_pad_3 25 14 0 # ICE_IO
+set_io SEG1_pad_4 25 15 1 # ICE_IO
+set_io SEG1_pad_5 25 17 0 # ICE_IO
+set_io SEG1_pad_6 25 19 0 # ICE_IO
+set_io SEG2_pad_0 0 20 0 # ICE_IO
+set_io SEG2_pad_1 0 17 1 # ICE_IO
+set_io SEG2_pad_2 0 17 0 # ICE_IO
+set_io SEG2_pad_3 0 13 1 # ICE_IO
+set_io SEG2_pad_4 0 13 0 # ICE_IO
+set_io SEG2_pad_5 0 11 1 # ICE_IO
+set_io SEG2_pad_6 0 11 0 # ICE_IO
+set_io leds_c_0_pad 4 0 1 # ICE_IO
+set_io leds_c_1_pad 3 0 1 # ICE_IO
+set_io leds_c_2_pad 2 0 1 # ICE_IO
+set_io leds_c_3_pad 2 0 0 # ICE_IO
+set_io leds_pad_0 24 0 1 # ICE_IO
+set_io leds_pad_1 23 0 0 # ICE_IO
+set_io leds_pad_2 23 0 1 # ICE_IO
+set_io leds_pad_3 24 0 0 # ICE_IO
+set_location CONSTANT_ONE_LUT4 1 13 3 # SB_LUT4 (LogicCell: LC_7)
