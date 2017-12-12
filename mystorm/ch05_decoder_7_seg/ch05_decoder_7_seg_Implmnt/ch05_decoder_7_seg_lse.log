@@ -3,7 +3,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
-Sun Dec 10 21:40:24 2017
+Tue Dec 12 23:28:04 2017
 
 
 Command Line:  /home/ed/lscc/iCEcube2.2017.08/LSE/bin/lin64/synthesis -f ch05_decoder_7_seg_lse.prj 
@@ -153,5 +153,5 @@ All constraints were met.
 Peak Memory Usage: 152.805  MB
 
 --------------------------------------------------------------
-Elapsed CPU time for LSE flow : 0.204  secs
+Elapsed CPU time for LSE flow : 0.187  secs
 --------------------------------------------------------------

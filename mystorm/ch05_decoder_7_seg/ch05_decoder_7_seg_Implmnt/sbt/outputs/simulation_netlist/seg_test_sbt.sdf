@@ -1,7 +1,7 @@
 (DELAYFILE                 // Header Section
    (SDFVERSION "3.0")
    (DESIGN "seg_test")
-   (DATE "Sun Dec 10 21:40:37 2017")
+   (DATE "Tue Dec 12 23:28:16 2017")
    (VENDOR "SiliconBlue Technologies Corporation")
    (DIVIDER /)
    (TIMESCALE 1ps)

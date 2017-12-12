@@ -1,5 +1,5 @@
 // Verilog netlist produced by program LSE :  version Diamond Version 0.0.0
-// Netlist written on Sun Dec 10 21:40:24 2017
+// Netlist written on Tue Dec 12 23:28:04 2017
 //
 // Verilog Description of module seg_test
 //
@@ -26,7 +26,7 @@ module seg_test (CLK, D, SEG1, SEG2, DIGIT, leds) /* synthesis syn_module_define
     decoder_7_seg decoder (.n22(n22), .CLK_c(CLK_c), .leds_c_0_c(leds_c_0_c), 
             .leds_c_2_c(leds_c_2_c), .leds_c_3_c(leds_c_3_c), .leds_c_1_c(leds_c_1_c), 
             .SEG2_c(SEG2_c), .n17(n17), .n21(n21), .n18(n18), .n19(n19), 
-            .n118(n118), .n20(n20)) /* synthesis syn_module_defined=1 */ ;   // src/seg_test.v(14[15:55])
+            .n118(n118), .n20(n20)) /* synthesis syn_module_defined=1 */ ;   // src/seg_test.v(12[15:55])
     SB_IO SEG1_pad_4 (.PACKAGE_PIN(SEG1[4]), .OUTPUT_ENABLE(VCC_net), .D_OUT_0(n18));   // /home/ed/lscc/iCEcube2.2017.08/LSE/userware/unix/SYNTHESIS_HEADERS/sb_ice40.v(502[8:13])
     defparam SEG1_pad_4.PIN_TYPE = 6'b011001;
     defparam SEG1_pad_4.PULLUP = 1'b0;

@@ -6,7 +6,7 @@
 
 * Build Date:         Sep 12 2017 08:14:10
 
-* File Generated:     Dec 10 2017 21:40:25
+* File Generated:     Dec 12 2017 23:28:04
 
 * Purpose:            
 
@@ -119,7 +119,7 @@ Phase 5
 I2088: Phase 5, elapsed time : 0.0 (sec)
 
 Phase 6
-I2088: Phase 6, elapsed time : 0.4 (sec)
+I2088: Phase 6, elapsed time : 0.3 (sec)
 
 Final Design Statistics
     Number of LUTs      	:	8

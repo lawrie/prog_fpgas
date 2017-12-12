@@ -1,5 +1,5 @@
 LSE_CPS_ID_1 "/home/ed/lscc/iCEcube2.2017.08/LSE/userware/unix/SYNTHESIS_HEADERS/sb_ice40.v:502[8:13]"
-LSE_CPS_ID_2 "src/seg_test.v:14[15:55]"
+LSE_CPS_ID_2 "src/seg_test.v:12[15:55]"
 LSE_CPS_ID_3 "src/decoder_7_seg.v:7[8] 22[4]"
 LSE_CPS_ID_4 "src/decoder_7_seg.v:9[2] 21[9]"
 LSE_CPS_ID_5 "src/decoder_7_seg.v:9[2] 21[9]"

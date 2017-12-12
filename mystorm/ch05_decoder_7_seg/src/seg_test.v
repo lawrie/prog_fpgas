@@ -9,8 +9,6 @@ module seg_test(
 	
 assign DIGIT = 2'b11;
 
-//wire d2 = D + 1;
-
 decoder_7_seg decoder(.CLK (CLK), .SEG	(SEG1), .D (D));  
 decoder_7_seg decoder2(.CLK (CLK), .SEG	(SEG2), .D (D));  
 

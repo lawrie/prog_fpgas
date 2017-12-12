@@ -6,7 +6,7 @@
 
 * Build Date:         Sep 12 2017 08:09:20
 
-* File Generated:     Dec 10 2017 21:40:27
+* File Generated:     Dec 12 2017 23:28:05
 
 * Purpose:            Router runtime info
 
@@ -26,4 +26,4 @@ I1206: Completed routing
 I1204: Writing Design seg_test
 I1210: Writing routes
 I1218: Exiting the router
-I1224: Router run-time : 9 seconds
+I1224: Router run-time : 10 seconds
