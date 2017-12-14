@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debouncer.v":1:7:1:15|Synthesizing module debouncer in library work.
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":1:7:1:14|Synthesizing module debounce in library work.
+@N|Running in 64-bit mode
+@N: NF107 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":1:7:1:14|Selected library: work cell: debounce view verilog as top level
+@N: NF107 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":1:7:1:14|Selected library: work cell: debounce view verilog as top level
+

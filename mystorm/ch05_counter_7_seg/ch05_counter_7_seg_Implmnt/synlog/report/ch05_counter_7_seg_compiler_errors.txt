@@ -1,0 +1,2 @@
+@E: CS168 :"/home/ed/dev/prog_fpgas/mystorm/ch05_counter_7_seg/src/counter_7_seg.v":18:8:18:8|Port SEG1 does not exist
+

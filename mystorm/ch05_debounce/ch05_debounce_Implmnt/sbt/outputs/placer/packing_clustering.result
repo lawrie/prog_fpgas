@@ -1,0 +1,67 @@
+ble_pack d1.un3_count_cry_1_c_LC_55 {d1.un3_count_cry_1_c}
+ble_pack d1.count[2]_LC_14 {d1.count[2], d1.un3_count_cry_2_c, d1.count_RNO[2]}
+ble_pack d1.count[3]_LC_15 {d1.count[3], d1.un3_count_cry_3_c, d1.count_RNO[3]}
+ble_pack d1.count[4]_LC_16 {d1.count[4], d1.un3_count_cry_4_c, d1.count_RNO[4]}
+ble_pack d1.count[5]_LC_17 {d1.count[5], d1.un3_count_cry_5_c, d1.count_RNO[5]}
+ble_pack d1.count[6]_LC_18 {d1.count[6], d1.un3_count_cry_6_c, d1.count_RNO[6]}
+ble_pack d1.count[7]_LC_19 {d1.count[7], d1.un3_count_cry_7_c, d1.count_RNO[7]}
+ble_pack d1.count[8]_LC_20 {d1.count[8], d1.un3_count_cry_8_c, d1.count_RNO[8]}
+clb_pack PLB_0 {d1.un3_count_cry_1_c_LC_55, d1.count[2]_LC_14, d1.count[3]_LC_15, d1.count[4]_LC_16, d1.count[5]_LC_17, d1.count[6]_LC_18, d1.count[7]_LC_19, d1.count[8]_LC_20}
+ble_pack d1.count[9]_LC_21 {d1.count[9], d1.un3_count_cry_9_c, d1.count_RNO[9]}
+ble_pack d1.count[10]_LC_7 {d1.count[10], d1.un3_count_cry_10_c, d1.count_RNO[10]}
+ble_pack d1.count[11]_LC_8 {d1.count[11], d1.un3_count_cry_11_c, d1.count_RNO[11]}
+ble_pack d1.count[12]_LC_9 {d1.count[12], d1.un3_count_cry_12_c, d1.count_RNO[12]}
+ble_pack d1.count[13]_LC_10 {d1.count[13], d1.un3_count_cry_13_c, d1.count_RNO[13]}
+ble_pack d1.count[14]_LC_11 {d1.count[14], d1.un3_count_cry_14_c, d1.count_RNO[14]}
+ble_pack d1.count[15]_LC_12 {d1.count[15], d1.un3_count_cry_15_c, d1.count_RNO[15]}
+ble_pack d1.count[16]_LC_13 {d1.count[16], d1.count_RNO[16]}
+clb_pack PLB_1 {d1.count[9]_LC_21, d1.count[10]_LC_7, d1.count[11]_LC_8, d1.count[12]_LC_9, d1.count[13]_LC_10, d1.count[14]_LC_11, d1.count[15]_LC_12, d1.count[16]_LC_13}
+ble_pack d2.un3_count_cry_1_c_LC_56 {d2.un3_count_cry_1_c}
+ble_pack d2.count[2]_LC_38 {d2.count[2], d2.un3_count_cry_2_c, d2.count_RNO[2]}
+ble_pack d2.count[3]_LC_39 {d2.count[3], d2.un3_count_cry_3_c, d2.count_RNO[3]}
+ble_pack d2.count[4]_LC_40 {d2.count[4], d2.un3_count_cry_4_c, d2.count_RNO[4]}
+ble_pack d2.count[5]_LC_41 {d2.count[5], d2.un3_count_cry_5_c, d2.count_RNO[5]}
+ble_pack d2.count[6]_LC_42 {d2.count[6], d2.un3_count_cry_6_c, d2.count_RNO[6]}
+ble_pack d2.count[7]_LC_43 {d2.count[7], d2.un3_count_cry_7_c, d2.count_RNO[7]}
+ble_pack d2.count[8]_LC_44 {d2.count[8], d2.un3_count_cry_8_c, d2.count_RNO[8]}
+clb_pack PLB_2 {d2.un3_count_cry_1_c_LC_56, d2.count[2]_LC_38, d2.count[3]_LC_39, d2.count[4]_LC_40, d2.count[5]_LC_41, d2.count[6]_LC_42, d2.count[7]_LC_43, d2.count[8]_LC_44}
+ble_pack d2.count[9]_LC_45 {d2.count[9], d2.un3_count_cry_9_c, d2.count_RNO[9]}
+ble_pack d2.count[10]_LC_31 {d2.count[10], d2.un3_count_cry_10_c, d2.count_RNO[10]}
+ble_pack d2.count[11]_LC_32 {d2.count[11], d2.un3_count_cry_11_c, d2.count_RNO[11]}
+ble_pack d2.count[12]_LC_33 {d2.count[12], d2.un3_count_cry_12_c, d2.count_RNO[12]}
+ble_pack d2.count[13]_LC_34 {d2.count[13], d2.un3_count_cry_13_c, d2.count_RNO[13]}
+ble_pack d2.count[14]_LC_35 {d2.count[14], d2.un3_count_cry_14_c, d2.count_RNO[14]}
+ble_pack d2.count[15]_LC_36 {d2.count[15], d2.un3_count_cry_15_c, d2.count_RNO[15]}
+ble_pack d2.count[16]_LC_37 {d2.count[16], d2.count_RNO[16]}
+clb_pack PLB_3 {d2.count[9]_LC_45, d2.count[10]_LC_31, d2.count[11]_LC_32, d2.count[12]_LC_33, d2.count[13]_LC_34, d2.count[14]_LC_35, d2.count[15]_LC_36, d2.count[16]_LC_37}
+ble_pack d1.count_RNI0C112[15]_LC_0 {d1.count_RNI0C112[15]}
+ble_pack d1.count_RNIVLCE[4]_LC_4 {d1.count_RNIVLCE[4]}
+ble_pack d1.count_RNIUQHQ[11]_LC_3 {d1.count_RNIUQHQ[11]}
+ble_pack d1.state_LC_22 {d1.state, d1.state_RNO}
+ble_pack d1.sync_1_RNIKI1C_LC_23 {d1.sync_1_RNIKI1C}
+ble_pack d1.sync_1_LC_51 {d1.sync_1, d1.sync_1_THRU_LUT4_0}
+ble_pack d1.count_RNIP9EH[7]_LC_2 {d1.count_RNIP9EH[7]}
+ble_pack d1.sync_0_LC_50 {d1.sync_0, d1.sync_0_THRU_LUT4_0}
+clb_pack PLB_4 {d1.count_RNI0C112[15]_LC_0, d1.count_RNIVLCE[4]_LC_4, d1.count_RNIUQHQ[11]_LC_3, d1.state_LC_22, d1.sync_1_RNIKI1C_LC_23, d1.sync_1_LC_51, d1.count_RNIP9EH[7]_LC_2, d1.sync_0_LC_50}
+ble_pack d1.count_RNIDTDH[16]_LC_1 {d1.count_RNIDTDH[16]}
+ble_pack led_a_e_LC_48 {led_a_e, led_a_e_RNO}
+ble_pack d2.count_RNI237[11]_LC_24 {d2.count_RNI237[11]}
+ble_pack d2.count_RNID7FT1[15]_LC_26 {d2.count_RNID7FT1[15]}
+ble_pack d2.count_RNI3QT21[4]_LC_25 {d2.count_RNI3QT21[4]}
+clb_pack PLB_5 {d1.count_RNIDTDH[16]_LC_1, led_a_e_LC_48, d2.count_RNI237[11]_LC_24, d2.count_RNID7FT1[15]_LC_26, d2.count_RNI3QT21[4]_LC_25}
+ble_pack d2.count_RNIH28Q[16]_LC_27 {d2.count_RNIH28Q[16]}
+ble_pack d2.state_LC_46 {d2.state, d2.state_RNO}
+ble_pack d2.sync_1_RNIMV5K_LC_47 {d2.sync_1_RNIMV5K}
+ble_pack d2.sync_1_LC_53 {d2.sync_1, d2.sync_1_THRU_LUT4_0}
+ble_pack d2.sync_0_LC_52 {d2.sync_0, d2.sync_0_THRU_LUT4_0}
+ble_pack d2.count_RNITE8Q[10]_LC_28 {d2.count_RNITE8Q[10]}
+ble_pack led_c_LC_54 {led_c, led_cZ0_THRU_LUT4_0}
+clb_pack PLB_6 {d2.count_RNIH28Q[16]_LC_27, d2.state_LC_46, d2.sync_1_RNIMV5K_LC_47, d2.sync_1_LC_53, d2.sync_0_LC_52, d2.count_RNITE8Q[10]_LC_28, led_c_LC_54}
+ble_pack led_b_e_LC_49 {led_b_e, led_b_e_RNO}
+clb_pack PLB_7 {led_b_e_LC_49}
+ble_pack d1.count[1]_LC_6 {d1.count[1], d1.count_RNO[1]}
+ble_pack d1.count[0]_LC_5 {d1.count[0], d1.count_RNO[0]}
+clb_pack PLB_8 {d1.count[1]_LC_6, d1.count[0]_LC_5}
+ble_pack d2.count[1]_LC_30 {d2.count[1], d2.count_RNO[1]}
+ble_pack d2.count[0]_LC_29 {d2.count[0], d2.count_RNO[0]}
+clb_pack PLB_9 {d2.count[1]_LC_30, d2.count[0]_LC_29}

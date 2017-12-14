@@ -1,0 +1,601 @@
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: /home/ed/lscc/iCEcube2.2017.08/synpbase
+#OS: Linux 
+#Hostname: orinoco
+
+# Tue Dec 12 23:24:26 2017
+
+#Implementation: ch05_debounce_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Running on host :orinoco
+@I::"/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/generic/sb_ice40.v" (library work)
+@I::"/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/vlog/hypermods.v" (library __hyper__lib__)
+@I::"/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/vlog/umr_capim.v" (library snps_haps)
+@I::"/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/vlog/scemi_objects.v" (library snps_haps)
+@I::"/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/vlog/scemi_pipes.svh" (library snps_haps)
+@I::"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v" (library work)
+@I::"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debouncer.v" (library work)
+Verilog syntax check successful!
+File /home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v changed - recompiling
+Selecting top level module debounce
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debouncer.v":1:7:1:15|Synthesizing module debouncer in library work.
+
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":1:7:1:14|Synthesizing module debounce in library work.
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 70MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 12 23:24:26 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":1:7:1:14|Selected library: work cell: debounce view verilog as top level
+@N: NF107 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":1:7:1:14|Selected library: work cell: debounce view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 12 23:24:26 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 12 23:24:26 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+File /home/ed/dev/prog_fpgas/mystorm/ch05_debounce/ch05_debounce_Implmnt/synwork/ch05_debounce_comp.srs changed - recompiling
+@N: NF107 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":1:7:1:14|Selected library: work cell: debounce view verilog as top level
+@N: NF107 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":1:7:1:14|Selected library: work cell: debounce view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Dec 12 23:24:27 2017
+
+###########################################################]
+Pre-mapping Report
+
+# Tue Dec 12 23:24:27 2017
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: /home/ed/dev/prog_fpgas/mystorm/ch05_debounce/ch05_debounce_Implmnt/ch05_debounce_scck.rpt 
+Printing clock  summary report in "/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/ch05_debounce_Implmnt/ch05_debounce_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+@W: BN132 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":13:10:13:11|Removing user instance d3 because it is equivalent to instance d1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=20  set on top level netlist debounce
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+Clock Summary
+*****************
+
+Start            Requested     Requested     Clock        Clock                     Clock
+Clock            Frequency     Period        Type         Group                     Load 
+-----------------------------------------------------------------------------------------
+debounce|CLK     184.0 MHz     5.434         inferred     Autoconstr_clkgroup_0     43   
+=========================================================================================
+
+@W: MT529 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debouncer.v":26:0:26:5|Found inferred clock debounce|CLK which controls 43 sequential elements including d1.count[16:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file /home/ed/dev/prog_fpgas/mystorm/ch05_debounce/ch05_debounce_Implmnt/ch05_debounce.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Dec 12 23:24:28 2017
+
+###########################################################]
+Map & Optimize Report
+
+# Tue Dec 12 23:24:28 2017
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 09:30:53
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.56ns		  54 /        43
+   2		0h:00m:00s		    -1.56ns		  52 /        43
+
+   3		0h:00m:00s		    -1.56ns		  52 /        43
+
+
+   4		0h:00m:00s		    -1.56ns		  52 /        43
+@A: BN291 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":15:0:15:5|Boundary register led_a (in view: work.debounce(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":15:0:15:5|Boundary register led_b (in view: work.debounce(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: FX1016 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":2:10:2:12|SB_GB_IO inserted on the port CLK.
+@N: FX1017 :|SB_GB inserted on the net d2.idle_i.
+@N: FX1017 :|SB_GB inserted on the net d1.idle_i.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 43 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       CLK_ibuf_gb_io      SB_GB_IO               43         led_a_e        
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 106MB peak: 133MB)
+
+Writing Analyst data base /home/ed/dev/prog_fpgas/mystorm/ch05_debounce/ch05_debounce_Implmnt/synwork/ch05_debounce_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 133MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: /home/ed/dev/prog_fpgas/mystorm/ch05_debounce/ch05_debounce_Implmnt/ch05_debounce.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+@W: MT420 |Found inferred clock debounce|CLK with period 6.54ns. Please declare a user-defined clock on object "p:CLK"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Dec 12 23:24:29 2017
+#
+
+
+Top view:               debounce
+Requested Frequency:    152.8 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.155
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+debounce|CLK       152.8 MHz     129.9 MHz     6.545         7.699         -1.155     inferred     Autoconstr_clkgroup_0
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                      |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------
+Starting      Ending        |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------
+debounce|CLK  debounce|CLK  |  6.545       -1.155  |  No paths    -      |  No paths    -      |  No paths    -    
+===================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: debounce|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                            Arrival           
+Instance         Reference        Type         Pin     Net           Time        Slack 
+                 Clock                                                                 
+---------------------------------------------------------------------------------------
+d1.count[0]      debounce|CLK     SB_DFFSR     Q       count[0]      0.540       -1.155
+d1.count[11]     debounce|CLK     SB_DFFSR     Q       count[11]     0.540       -1.155
+d1.count[4]      debounce|CLK     SB_DFFSR     Q       count[4]      0.540       -1.106
+d1.count[12]     debounce|CLK     SB_DFFSR     Q       count[12]     0.540       -1.106
+d2.count[0]      debounce|CLK     SB_DFFSR     Q       count[0]      0.540       -1.092
+d1.count[7]      debounce|CLK     SB_DFFSR     Q       count[7]      0.540       -1.092
+d2.count[11]     debounce|CLK     SB_DFFSR     Q       count[11]     0.540       -1.092
+d1.count[5]      debounce|CLK     SB_DFFSR     Q       count[5]      0.540       -1.085
+d1.count[13]     debounce|CLK     SB_DFFSR     Q       count[13]     0.540       -1.085
+d2.count[4]      debounce|CLK     SB_DFFSR     Q       count[4]      0.540       -1.043
+=======================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                 Starting                                                   Required           
+Instance         Reference        Type         Pin     Net                  Time         Slack 
+                 Clock                                                                         
+-----------------------------------------------------------------------------------------------
+d1.state         debounce|CLK     SB_DFF       D       state                6.439        -1.155
+d2.state         debounce|CLK     SB_DFF       D       state_0              6.439        -1.092
+led_a_e          debounce|CLK     SB_DFFE      D       led_a_e_RNO          6.439        0.574 
+led_b_e          debounce|CLK     SB_DFFE      D       led_b_e_RNO          6.439        0.595 
+d2.count[16]     debounce|CLK     SB_DFFSR     D       count_RNO_0[16]      6.439        0.636 
+d1.count[16]     debounce|CLK     SB_DFFSR     D       count_RNO[16]        6.439        0.636 
+led_a_e          debounce|CLK     SB_DFFE      E       d1.trans_dn_1_15     6.545        0.700 
+led_b_e          debounce|CLK     SB_DFFE      E       d2.trans_up_1_15     6.545        0.700 
+d2.count[15]     debounce|CLK     SB_DFFSR     D       count_RNO_0[15]      6.439        0.777 
+d1.count[15]     debounce|CLK     SB_DFFSR     D       count_RNO[15]        6.439        0.777 
+===============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.545
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.439
+
+    - Propagation time:                      7.594
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.155
+
+    Number of logic level(s):                3
+    Starting point:                          d1.count[0] / Q
+    Ending point:                            d1.state / D
+    The start point is clocked by            debounce|CLK [rising] on pin C
+    The end   point is clocked by            debounce|CLK [rising] on pin C
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+d1.count[0]               SB_DFFSR     Q        Out     0.540     0.540       -         
+count[0]                  Net          -        -       1.599     -           4         
+d1.count_RNIVLCE[4]       SB_LUT4      I0       In      -         2.139       -         
+d1.count_RNIVLCE[4]       SB_LUT4      O        Out     0.449     2.588       -         
+trans_dn_1_15_1           Net          -        -       1.371     -           1         
+d1.count_RNI0C112[15]     SB_LUT4      I1       In      -         3.959       -         
+d1.count_RNI0C112[15]     SB_LUT4      O        Out     0.379     4.338       -         
+trans_dn_1_15             Net          -        -       1.371     -           2         
+d1.state_RNO              SB_LUT4      I2       In      -         5.708       -         
+d1.state_RNO              SB_LUT4      O        Out     0.379     6.087       -         
+state                     Net          -        -       1.507     -           1         
+d1.state                  SB_DFF       D        In      -         7.594       -         
+========================================================================================
+Total path delay (propagation time + setup) of 7.699 is 1.851(24.0%) logic and 5.848(76.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      6.545
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.439
+
+    - Propagation time:                      7.594
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.155
+
+    Number of logic level(s):                3
+    Starting point:                          d1.count[11] / Q
+    Ending point:                            d1.state / D
+    The start point is clocked by            debounce|CLK [rising] on pin C
+    The end   point is clocked by            debounce|CLK [rising] on pin C
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+d1.count[11]              SB_DFFSR     Q        Out     0.540     0.540       -         
+count[11]                 Net          -        -       1.599     -           3         
+d1.count_RNIUQHQ[11]      SB_LUT4      I0       In      -         2.139       -         
+d1.count_RNIUQHQ[11]      SB_LUT4      O        Out     0.449     2.588       -         
+trans_dn_1_15_7           Net          -        -       1.371     -           1         
+d1.count_RNI0C112[15]     SB_LUT4      I2       In      -         3.959       -         
+d1.count_RNI0C112[15]     SB_LUT4      O        Out     0.379     4.338       -         
+trans_dn_1_15             Net          -        -       1.371     -           2         
+d1.state_RNO              SB_LUT4      I2       In      -         5.708       -         
+d1.state_RNO              SB_LUT4      O        Out     0.379     6.087       -         
+state                     Net          -        -       1.507     -           1         
+d1.state                  SB_DFF       D        In      -         7.594       -         
+========================================================================================
+Total path delay (propagation time + setup) of 7.699 is 1.851(24.0%) logic and 5.848(76.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      6.545
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.439
+
+    - Propagation time:                      7.545
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.106
+
+    Number of logic level(s):                3
+    Starting point:                          d1.count[4] / Q
+    Ending point:                            d1.state / D
+    The start point is clocked by            debounce|CLK [rising] on pin C
+    The end   point is clocked by            debounce|CLK [rising] on pin C
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+d1.count[4]               SB_DFFSR     Q        Out     0.540     0.540       -         
+count[4]                  Net          -        -       1.599     -           3         
+d1.count_RNIVLCE[4]       SB_LUT4      I1       In      -         2.139       -         
+d1.count_RNIVLCE[4]       SB_LUT4      O        Out     0.379     2.518       -         
+trans_dn_1_15_1           Net          -        -       1.371     -           1         
+d1.count_RNI0C112[15]     SB_LUT4      I1       In      -         3.889       -         
+d1.count_RNI0C112[15]     SB_LUT4      O        Out     0.400     4.288       -         
+trans_dn_1_15             Net          -        -       1.371     -           2         
+d1.state_RNO              SB_LUT4      I2       In      -         5.659       -         
+d1.state_RNO              SB_LUT4      O        Out     0.379     6.038       -         
+state                     Net          -        -       1.507     -           1         
+d1.state                  SB_DFF       D        In      -         7.545       -         
+========================================================================================
+Total path delay (propagation time + setup) of 7.650 is 1.802(23.6%) logic and 5.848(76.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      6.545
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.439
+
+    - Propagation time:                      7.545
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.106
+
+    Number of logic level(s):                3
+    Starting point:                          d1.count[12] / Q
+    Ending point:                            d1.state / D
+    The start point is clocked by            debounce|CLK [rising] on pin C
+    The end   point is clocked by            debounce|CLK [rising] on pin C
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+d1.count[12]              SB_DFFSR     Q        Out     0.540     0.540       -         
+count[12]                 Net          -        -       1.599     -           3         
+d1.count_RNIUQHQ[11]      SB_LUT4      I1       In      -         2.139       -         
+d1.count_RNIUQHQ[11]      SB_LUT4      O        Out     0.400     2.539       -         
+trans_dn_1_15_7           Net          -        -       1.371     -           1         
+d1.count_RNI0C112[15]     SB_LUT4      I2       In      -         3.910       -         
+d1.count_RNI0C112[15]     SB_LUT4      O        Out     0.379     4.288       -         
+trans_dn_1_15             Net          -        -       1.371     -           2         
+d1.state_RNO              SB_LUT4      I2       In      -         5.659       -         
+d1.state_RNO              SB_LUT4      O        Out     0.379     6.038       -         
+state                     Net          -        -       1.507     -           1         
+d1.state                  SB_DFF       D        In      -         7.545       -         
+========================================================================================
+Total path delay (propagation time + setup) of 7.650 is 1.802(23.6%) logic and 5.848(76.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      6.545
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.439
+
+    - Propagation time:                      7.531
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.092
+
+    Number of logic level(s):                3
+    Starting point:                          d2.count[0] / Q
+    Ending point:                            d2.state / D
+    The start point is clocked by            debounce|CLK [rising] on pin C
+    The end   point is clocked by            debounce|CLK [rising] on pin C
+
+Instance / Net                         Pin      Pin               Arrival     No. of    
+Name                      Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------
+d2.count[0]               SB_DFFSR     Q        Out     0.540     0.540       -         
+count[0]                  Net          -        -       1.599     -           4         
+d2.count_RNI3QT21[4]      SB_LUT4      I0       In      -         2.139       -         
+d2.count_RNI3QT21[4]      SB_LUT4      O        Out     0.449     2.588       -         
+trans_up_1_15_1           Net          -        -       1.371     -           1         
+d2.count_RNID7FT1[15]     SB_LUT4      I1       In      -         3.959       -         
+d2.count_RNID7FT1[15]     SB_LUT4      O        Out     0.379     4.338       -         
+trans_up_1_15             Net          -        -       1.371     -           2         
+d2.state_RNO              SB_LUT4      I3       In      -         5.708       -         
+d2.state_RNO              SB_LUT4      O        Out     0.316     6.024       -         
+state_0                   Net          -        -       1.507     -           1         
+d2.state                  SB_DFF       D        In      -         7.531       -         
+========================================================================================
+Total path delay (propagation time + setup) of 7.636 is 1.788(23.4%) logic and 5.848(76.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+---------------------------------------
+Resource Usage Report for debounce 
+
+Mapping to part: ice40hx4ktq144
+Cell usage:
+GND             2 uses
+SB_CARRY        30 uses
+SB_DFF          7 uses
+SB_DFFE         2 uses
+SB_DFFSR        34 uses
+SB_GB           2 uses
+VCC             2 uses
+SB_LUT4         50 uses
+
+I/O ports: 6
+I/O primitives: 6
+SB_GB_IO       1 use
+SB_IO          5 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   43 (1%)
+Total load per clock:
+   debounce|CLK: 1
+
+@S |Mapping Summary:
+Total  LUTs: 50 (1%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 50 = 50 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Dec 12 23:24:29 2017
+
+###########################################################]

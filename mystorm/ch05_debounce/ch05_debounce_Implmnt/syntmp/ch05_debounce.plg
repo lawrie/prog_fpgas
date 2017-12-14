@@ -1,0 +1,12 @@
+@P:  Worst Slack : -1.155
+@P:  debounce|CLK - Estimated Frequency : 129.9 MHz
+@P:  debounce|CLK - Requested Frequency : 152.8 MHz
+@P:  debounce|CLK - Estimated Period : 7.699
+@P:  debounce|CLK - Requested Period : 6.545
+@P:  debounce|CLK - Slack : -1.155
+@P: debounce Part : ice40hx4ktq144
+@P: debounce I/O primitives : 6
+@P: debounce I/O Register bits : 0
+@P: debounce Register bits (Non I/O) : 43 (1%)
+@P: debounce Total Luts : 50 (1%)
+@P:  CPU Time : 0h:00m:00s

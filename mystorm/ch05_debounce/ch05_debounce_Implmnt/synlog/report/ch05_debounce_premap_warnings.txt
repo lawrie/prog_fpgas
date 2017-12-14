@@ -1,0 +1,2 @@
+@W: BN132 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":13:10:13:11|Removing user instance d3 because it is equivalent to instance d1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: MT529 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debouncer.v":26:0:26:5|Found inferred clock debounce|CLK which controls 43 sequential elements including d1.count[16:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

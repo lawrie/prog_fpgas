@@ -1,0 +1,10 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch05_counter_7_seg/src/debouncer.v":1:7:1:15|Synthesizing module debouncer in library work.
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch05_counter_7_seg/src/decoder_7_seg.v":1:7:1:19|Synthesizing module decoder_7_seg in library work.
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch05_counter_7_seg/src/display_7_seg.v":1:7:1:19|Synthesizing module display_7_seg in library work.
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch05_counter_7_seg/src/counter_7_seg.v":1:7:1:19|Synthesizing module counter_7_seg in library work.
+@N|Running in 64-bit mode
+@N: NF107 :"/home/ed/dev/prog_fpgas/mystorm/ch05_counter_7_seg/src/counter_7_seg.v":1:7:1:19|Selected library: work cell: counter_7_seg view verilog as top level
+@N: NF107 :"/home/ed/dev/prog_fpgas/mystorm/ch05_counter_7_seg/src/counter_7_seg.v":1:7:1:19|Selected library: work cell: counter_7_seg view verilog as top level
+

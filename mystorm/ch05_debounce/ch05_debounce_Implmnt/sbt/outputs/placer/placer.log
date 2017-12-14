@@ -1,0 +1,152 @@
+* ******************************************************************************
+
+* iCEcube Placer
+
+* Version:            2017.08.27940
+
+* Build Date:         Sep 12 2017 08:14:10
+
+* File Generated:     Dec 12 2017 23:24:29
+
+* Purpose:            
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Executing : /home/ed/lscc/iCEcube2.2017.08/sbt_backend/bin/linux/opt/sbtplacer --des-lib /home/ed/dev/prog_fpgas/mystorm/ch05_debounce/ch05_debounce_Implmnt/sbt/netlist/oadb-debounce --outdir /home/ed/dev/prog_fpgas/mystorm/ch05_debounce/ch05_debounce_Implmnt/sbt/outputs/placer --device-file /home/ed/lscc/iCEcube2.2017.08/sbt_backend/devices/ICE40P04.dev --package TQ144 --deviceMarketName iCE40HX4K --sdc-file /home/ed/dev/prog_fpgas/mystorm/ch05_debounce/ch05_debounce_Implmnt/sbt/Temp/sbt_temp.sdc --lib-file /home/ed/lscc/iCEcube2.2017.08/sbt_backend/devices/ice40HX8K.lib --effort_level std --out-sdc-file /home/ed/dev/prog_fpgas/mystorm/ch05_debounce/ch05_debounce_Implmnt/sbt/outputs/placer/debounce_pl.sdc
+I2004: Option and Settings Summary
+=============================================================
+Device file          - /home/ed/lscc/iCEcube2.2017.08/sbt_backend/devices/ICE40P04.dev
+Package              - TQ144
+Design database      - /home/ed/dev/prog_fpgas/mystorm/ch05_debounce/ch05_debounce_Implmnt/sbt/netlist/oadb-debounce
+SDC file             - /home/ed/dev/prog_fpgas/mystorm/ch05_debounce/ch05_debounce_Implmnt/sbt/Temp/sbt_temp.sdc
+Output directory     - /home/ed/dev/prog_fpgas/mystorm/ch05_debounce/ch05_debounce_Implmnt/sbt/outputs/placer
+Timing library       - /home/ed/lscc/iCEcube2.2017.08/sbt_backend/devices/ice40HX8K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: /home/ed/dev/prog_fpgas/mystorm/ch05_debounce/ch05_debounce_Implmnt/sbt/netlist/oadb-debounce/BFPGA_DESIGN_ep
+I2065: Reading device file : /home/ed/lscc/iCEcube2.2017.08/sbt_backend/devices/ICE40P04.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	50
+    Number of DFFs      	:	43
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	30
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	5
+    Number of GBIOs     	:	1
+    Number of GBs       	:	2
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+
+Phase 1
+I2077: Start design legalization
+
+Design Legalization Statistics
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	5
+    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
+    Number of LUTs replicated for LUTs driving multiple DFFs       	:	0
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	0
+    Number of feedthru LUTs inserted to legalize global signals    	:	0
+    Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
+    Total LUTs inserted                                            	:	5
+    Total CARRYs inserted                                          	:	0
+
+
+I2078: Design legalization is completed successfully
+I2088: Phase 1, elapsed time : 0.0 (sec)
+
+
+Phase 2
+I2088: Phase 2, elapsed time : 0.0 (sec)
+
+Phase 3
+
+Design Statistics after Packing
+    Number of LUTs      	:	55
+    Number of DFFs      	:	43
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	30
+
+Device Utilization Summary after Packing
+    Sequential LogicCells
+        LUT and DFF      	:	15
+        LUT, DFF and CARRY	:	28
+    Combinational LogicCells
+        Only LUT         	:	12
+        CARRY Only       	:	2
+        LUT with CARRY   	:	0
+    LogicCells                  :	57/3520
+    PLBs                        :	10/440
+    BRAMs                       :	0/20
+    IOs and GBIOs               :	6/107
+    PLLs                        :	0/2
+
+
+I2088: Phase 3, elapsed time : 0.2 (sec)
+
+Phase 4
+I2088: Phase 4, elapsed time : 0.1 (sec)
+
+Phase 5
+I2088: Phase 5, elapsed time : 0.1 (sec)
+
+Phase 6
+I2088: Phase 6, elapsed time : 8.2 (sec)
+
+Final Design Statistics
+    Number of LUTs      	:	55
+    Number of DFFs      	:	43
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	30
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	5
+    Number of GBIOs     	:	1
+    Number of GBs       	:	2
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+Device Utilization Summary
+    LogicCells                  :	57/3520
+    PLBs                        :	18/440
+    BRAMs                       :	0/20
+    IOs and GBIOs               :	6/107
+    PLLs                        :	0/2
+
+
+
+#####################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+=====================================================================
+
+#####################################################################
+                     Clock Summary 
+=====================================================================
+Number of clocks: 1
+Clock: debounce|CLK | Frequency: 223.01 MHz | Target: 152.91 MHz
+
+=====================================================================
+                     End of Clock Summary
+#####################################################################
+
+I2054: Placement of design completed successfully
+
+I2076: Placer run-time: 8.8 sec.
+
