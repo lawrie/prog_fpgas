@@ -1,0 +1,11 @@
+@W: FA239 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/decoder_7_seg.v":9:1:9:4|ROM SEG_2[6:0] (in view: work.decoder_7_seg_0(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/decoder_7_seg.v":9:1:9:4|ROM SEG_2[6:0] (in view: work.decoder_7_seg_0(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/decoder_7_seg.v":9:1:9:4|ROM SEG_2[6:0] (in view: work.decoder_7_seg_1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/decoder_7_seg.v":9:1:9:4|ROM SEG_2[6:0] (in view: work.decoder_7_seg_1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FX1039 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":41:0:41:5|User-specified initial value defined for instance mins[3:0] is being ignored. 
+@W: FX1039 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":41:0:41:5|User-specified initial value defined for instance secs[3:0] is being ignored. 
+@W: FX1039 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":41:0:41:5|User-specified initial value defined for instance ten_secs[2:0] is being ignored. 
+@W: FX1039 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":41:0:41:5|User-specified initial value defined for instance prescaler[27:0] is being ignored. 
+@W: FX1039 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":41:0:41:5|User-specified initial value defined for instance state[1:0] is being ignored. 
+@W: FX1039 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":41:0:41:5|User-specified initial value defined for instance alarm_on is being ignored. 
+@W: MT420 |Found inferred clock timer|CLK with period 13.13ns. Please declare a user-defined clock on object "p:CLK"

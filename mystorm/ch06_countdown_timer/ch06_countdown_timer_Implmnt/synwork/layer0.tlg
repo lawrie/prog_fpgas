@@ -1,0 +1,16 @@
+Selecting top level module timer
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/debouncer.v":1:7:1:15|Synthesizing module debouncer in library work.
+
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/alarm.v":1:7:1:11|Synthesizing module alarm in library work.
+
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/decoder_7_seg.v":1:7:1:19|Synthesizing module decoder_7_seg in library work.
+
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/display_7_seg.v":1:7:1:19|Synthesizing module display_7_seg in library work.
+
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":1:7:1:11|Synthesizing module timer in library work.
+
+@W: CS263 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":31:8:31:11|Port-width mismatch for port SEG. The port definition is 7 bits, but the actual port connection bit width is 8. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":35:8:35:11|Port-width mismatch for port SEG. The port definition is 7 bits, but the actual port connection bit width is 8. Adjust either the definition or the instantiation of this port.
+@N: CL189 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":41:0:41:5|Register bit ten_secs[3] is always 0.
+@W: CL260 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":41:0:41:5|Pruning register bit 3 of ten_secs[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":41:0:41:5|Trying to extract state machine for register state.

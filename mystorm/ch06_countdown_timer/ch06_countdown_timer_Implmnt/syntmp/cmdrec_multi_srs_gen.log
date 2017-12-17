@@ -1,0 +1,7 @@
+/home/ed/lscc/iCEcube2.2017.08/synpbase/bin/syn_nfilter  -link  -multisrs  /home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/ch06_countdown_timer_Implmnt/synwork/ch06_countdown_timer_comp.srs  -osyn  /home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/ch06_countdown_timer_Implmnt/synwork/ch06_countdown_timer_mult.srs  -log  /home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/ch06_countdown_timer_Implmnt/synlog/ch06_countdown_timer_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/ch06_countdown_timer_Implmnt/synwork/ch06_countdown_timer_comp.srs|io:i|time:1513547131|size:10225|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/ch06_countdown_timer_Implmnt/synwork/ch06_countdown_timer_mult.srs|io:o|time:1513547132|size:6097|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/ch06_countdown_timer_Implmnt/synlog/ch06_countdown_timer_multi_srs_gen.srr|io:o|time:1513547132|size:841|exec:0
+file:/home/ed/lscc/iCEcube2.2017.08/synpbase/linux_a_64/syn_nfilter|io:i|time:1512420707|size:11473624|exec:1
+file:/home/ed/lscc/iCEcube2.2017.08/synpbase/bin/syn_nfilter|io:i|time:1512420705|size:366|exec:1

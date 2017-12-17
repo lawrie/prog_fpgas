@@ -1,0 +1,152 @@
+* ******************************************************************************
+
+* iCEcube Placer
+
+* Version:            2017.08.27940
+
+* Build Date:         Sep 12 2017 08:14:10
+
+* File Generated:     Dec 17 2017 21:45:36
+
+* Purpose:            
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Executing : /home/ed/lscc/iCEcube2.2017.08/sbt_backend/bin/linux/opt/sbtplacer --des-lib /home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/ch06_countdown_timer_Implmnt/sbt/netlist/oadb-timer --outdir /home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/ch06_countdown_timer_Implmnt/sbt/outputs/placer --device-file /home/ed/lscc/iCEcube2.2017.08/sbt_backend/devices/ICE40P04.dev --package TQ144 --deviceMarketName iCE40HX4K --sdc-file /home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/ch06_countdown_timer_Implmnt/sbt/Temp/sbt_temp.sdc --lib-file /home/ed/lscc/iCEcube2.2017.08/sbt_backend/devices/ice40HX8K.lib --effort_level std --out-sdc-file /home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/ch06_countdown_timer_Implmnt/sbt/outputs/placer/timer_pl.sdc
+I2004: Option and Settings Summary
+=============================================================
+Device file          - /home/ed/lscc/iCEcube2.2017.08/sbt_backend/devices/ICE40P04.dev
+Package              - TQ144
+Design database      - /home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/ch06_countdown_timer_Implmnt/sbt/netlist/oadb-timer
+SDC file             - /home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/ch06_countdown_timer_Implmnt/sbt/Temp/sbt_temp.sdc
+Output directory     - /home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/ch06_countdown_timer_Implmnt/sbt/outputs/placer
+Timing library       - /home/ed/lscc/iCEcube2.2017.08/sbt_backend/devices/ice40HX8K.lib
+Effort level         - std
+
+I2050: Starting reading inputs for placer
+=============================================================
+I2100: Reading design library: /home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/ch06_countdown_timer_Implmnt/sbt/netlist/oadb-timer/BFPGA_DESIGN_ep
+I2065: Reading device file : /home/ed/lscc/iCEcube2.2017.08/sbt_backend/devices/ICE40P04.dev
+I2051: Reading of inputs for placer completed successfully
+
+I2053: Starting placement of the design
+=============================================================
+
+Input Design Statistics
+    Number of LUTs      	:	392
+    Number of DFFs      	:	227
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	161
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	23
+    Number of GBIOs     	:	1
+    Number of GBs       	:	5
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+
+Phase 1
+I2077: Start design legalization
+
+Design Legalization Statistics
+    Number of feedthru LUTs inserted to legalize input of DFFs     	:	14
+    Number of feedthru LUTs inserted for LUTs driving multiple DFFs	:	0
+    Number of LUTs replicated for LUTs driving multiple DFFs       	:	1
+    Number of feedthru LUTs inserted to legalize output of CARRYs  	:	13
+    Number of feedthru LUTs inserted to legalize global signals    	:	0
+    Number of feedthru CARRYs inserted to legalize input of CARRYs 	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 01xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 10xxxx  	:	0
+    Number of inserted LUTs to Legalize IOs with PIN_TYPE= 11xxxx  	:	0
+    Total LUTs inserted                                            	:	28
+    Total CARRYs inserted                                          	:	0
+
+
+I2078: Design legalization is completed successfully
+I2088: Phase 1, elapsed time : 0.0 (sec)
+
+
+Phase 2
+I2088: Phase 2, elapsed time : 0.0 (sec)
+
+Phase 3
+
+Design Statistics after Packing
+    Number of LUTs      	:	420
+    Number of DFFs      	:	227
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	161
+
+Device Utilization Summary after Packing
+    Sequential LogicCells
+        LUT and DFF      	:	111
+        LUT, DFF and CARRY	:	116
+    Combinational LogicCells
+        Only LUT         	:	163
+        CARRY Only       	:	15
+        LUT with CARRY   	:	30
+    LogicCells                  :	435/3520
+    PLBs                        :	63/440
+    BRAMs                       :	0/20
+    IOs and GBIOs               :	24/107
+    PLLs                        :	0/2
+
+
+I2088: Phase 3, elapsed time : 0.5 (sec)
+
+Phase 4
+I2088: Phase 4, elapsed time : 0.1 (sec)
+
+Phase 5
+I2088: Phase 5, elapsed time : 1.1 (sec)
+
+Phase 6
+I2088: Phase 6, elapsed time : 38.2 (sec)
+
+Final Design Statistics
+    Number of LUTs      	:	420
+    Number of DFFs      	:	227
+    Number of DFFs packed to IO	:	0
+    Number of Carrys    	:	161
+    Number of RAMs      	:	0
+    Number of ROMs      	:	0
+    Number of IOs       	:	23
+    Number of GBIOs     	:	1
+    Number of GBs       	:	5
+    Number of WarmBoot  	:	0
+    Number of PLLs      	:	0
+
+Device Utilization Summary
+    LogicCells                  :	435/3520
+    PLBs                        :	88/440
+    BRAMs                       :	0/20
+    IOs and GBIOs               :	24/107
+    PLLs                        :	0/2
+
+
+
+#####################################################################
+Placement Timing Summary
+
+The timing summary is based on estimated routing delays after
+placement. For final timing report, please carry out the timing
+analysis after routing.
+=====================================================================
+
+#####################################################################
+                     Clock Summary 
+=====================================================================
+Number of clocks: 1
+Clock: timer|CLK | Frequency: 97.57 MHz | Target: 76.16 MHz
+
+=====================================================================
+                     End of Clock Summary
+#####################################################################
+
+I2054: Placement of design completed successfully
+
+I2076: Placer run-time: 40.2 sec.
+

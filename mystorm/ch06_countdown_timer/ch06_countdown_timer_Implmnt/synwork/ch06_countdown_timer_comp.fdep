@@ -1,0 +1,35 @@
+#OPTIONS:"|-layerid|0|-orig_srs|/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/ch06_countdown_timer_Implmnt/synwork/ch06_countdown_timer_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/|-I|/home/ed/lscc/iCEcube2.2017.08/synpbase/lib|-v2001|-devicelib|/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/generic/sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"/home/ed/lscc/iCEcube2.2017.08/synpbase/linux_a_64/c_ver":1512420706
+#CUR:"/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/generic/sb_ice40.v":1512420706
+#CUR:"/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/vlog/hypermods.v":1512420706
+#CUR:"/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/vlog/umr_capim.v":1512420706
+#CUR:"/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/vlog/scemi_objects.v":1512420706
+#CUR:"/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/vlog/scemi_pipes.svh":1512420706
+#CUR:"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/alarm.v":1512374064
+#CUR:"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/debouncer.v":1512374064
+#CUR:"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/decoder_7_seg.v":1512938502
+#CUR:"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/display_7_seg.v":1513207761
+#CUR:"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":1513547128
+0			"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/alarm.v" verilog
+1			"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/debouncer.v" verilog
+2			"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/decoder_7_seg.v" verilog
+3			"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/display_7_seg.v" verilog
+4			"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 2
+4 3 0 1
+#Dependency Lists(Users Of)
+0 4
+1 4
+2 3
+3 4
+4 -1
+#Design Unit to File Association
+module work timer 4
+module work display_7_seg 3
+module work decoder_7_seg 2
+module work debouncer 1
+module work alarm 0

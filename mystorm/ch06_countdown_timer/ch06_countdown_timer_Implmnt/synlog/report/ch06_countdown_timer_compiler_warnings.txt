@@ -1,0 +1,4 @@
+@W: CS263 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":31:8:31:11|Port-width mismatch for port SEG. The port definition is 7 bits, but the actual port connection bit width is 8. Adjust either the definition or the instantiation of this port.
+@W: CS263 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":35:8:35:11|Port-width mismatch for port SEG. The port definition is 7 bits, but the actual port connection bit width is 8. Adjust either the definition or the instantiation of this port.
+@W: CL260 :"/home/ed/dev/prog_fpgas/mystorm/ch06_countdown_timer/src/timer.v":41:0:41:5|Pruning register bit 3 of ten_secs[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

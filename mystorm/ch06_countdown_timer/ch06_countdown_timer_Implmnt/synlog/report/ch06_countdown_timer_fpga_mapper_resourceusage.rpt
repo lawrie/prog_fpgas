@@ -1,0 +1,29 @@
+---------------------------------------
+Resource Usage Report for timer 
+
+Mapping to part: ice40hx4ktq144
+Cell usage:
+GND             9 uses
+SB_CARRY        161 uses
+SB_DFF          117 uses
+SB_DFFE         38 uses
+SB_DFFSR        70 uses
+SB_DFFSS        2 uses
+SB_GB           5 uses
+VCC             9 uses
+SB_LUT4         392 uses
+
+I/O ports: 24
+I/O primitives: 24
+SB_GB_IO       1 use
+SB_IO          23 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   227 (6%)
+
+@S |Mapping Summary:
+Total  LUTs: 392 (11%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 392 = 392 
+
