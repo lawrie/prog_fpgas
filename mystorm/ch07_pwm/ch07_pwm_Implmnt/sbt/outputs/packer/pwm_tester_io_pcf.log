@@ -1,0 +1,4 @@
+INPUT  switch_up 	 location (22, 0, 1) 	 64 	 
+INPUT  switch_dn 	 location (22, 0, 0) 	 63 	 
+OUTPUT PWM_PIN 	 location (24, 0, 1) 	 71 	 
+INPUT  CLK 	 location (12, 21, 1) 	 129 	 

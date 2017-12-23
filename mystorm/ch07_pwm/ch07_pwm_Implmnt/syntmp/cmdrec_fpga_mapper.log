@@ -1,0 +1,14 @@
+/home/ed/lscc/iCEcube2.2017.08/synpbase/bin/m_generic  -prodtype  synplify_pro   -encrypt  -pro  -rundir  /home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt   -part iCE40HX4K  -package TQ144    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile /home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/synlog/report/ch07_pwm_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  /home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/ch07_pwm.edf   -autoconstraint  -freq 1.000   /home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/synwork/ch07_pwm_prem.srd  -sap  /home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/ch07_pwm.sap  -otap  /home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/ch07_pwm.tap  -omap  /home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/ch07_pwm.map  -devicelib  /home/ed/lscc/iCEcube2.2017.08/synpbase/lib/generic/sb_ice40.v  -sap  /home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/ch07_pwm.sap  -ologparam  /home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/syntmp/ch07_pwm.plg  -osyn  /home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/ch07_pwm.srm  -prjdir  /home/ed/dev/prog_fpgas/mystorm/ch07_pwm/  -prjname  ch07_pwm_syn  -log  /home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/synlog/ch07_pwm_fpga_mapper.srr 
+rc:1 success:1 runtime:1
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/ch07_pwm.edf|io:o|time:1514038888|size:105631|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/synwork/ch07_pwm_prem.srd|io:i|time:1514038887|size:6491|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/ch07_pwm.sap|io:o|time:1514038887|size:901|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/ch07_pwm.tap|io:o|time:0|size:0|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/ch07_pwm.map|io:o|time:1514038889|size:27|exec:0
+file:/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/generic/sb_ice40.v|io:i|time:1512226239|size:220434|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/ch07_pwm.sap|io:o|time:1514038887|size:901|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/syntmp/ch07_pwm.plg|io:o|time:1514038889|size:485|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/ch07_pwm.srm|io:o|time:1514038889|size:15282|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_pwm/ch07_pwm_Implmnt/synlog/ch07_pwm_fpga_mapper.srr|io:o|time:1514038889|size:39688|exec:0
+file:/home/ed/lscc/iCEcube2.2017.08/synpbase/linux_a_64/m_generic|io:i|time:1512226240|size:32925640|exec:1
+file:/home/ed/lscc/iCEcube2.2017.08/synpbase/bin/m_generic|io:i|time:1512226239|size:345|exec:1

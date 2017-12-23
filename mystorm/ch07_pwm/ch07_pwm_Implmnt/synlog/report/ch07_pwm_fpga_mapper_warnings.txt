@@ -1,0 +1,4 @@
+@W: FX1039 :"/home/ed/dev/prog_fpgas/mystorm/ch07_pwm/src/pwm_tester.v":16:0:16:5|User-specified initial value defined for instance duty[7:0] is being ignored. 
+@W: FX1039 :"/home/ed/dev/prog_fpgas/mystorm/ch07_pwm/src/pwm_tester.v":16:0:16:5|User-specified initial value defined for instance prescaler[6:0] is being ignored. 
+@W: FX1039 :"/home/ed/dev/prog_fpgas/mystorm/ch07_pwm/src/pwm.v":9:0:9:5|User-specified initial value defined for instance p.count[7:0] is being ignored. 
+@W: MT420 |Found inferred clock pwm_tester|CLK with period 13.19ns. Please declare a user-defined clock on object "p:CLK"

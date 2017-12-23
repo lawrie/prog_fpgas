@@ -1,0 +1,7 @@
+[VIC]
+d1.trans_up_1_11_cascade_=ltout:in0
+d1.trans_up_1_13_cascade_=ltout:in2
+d1.trans_up_1_13_sx_cascade_=ltout:in3
+d1.trans_up_1_14_cascade_=ltout:in2
+d2.trans_up_1_sx_cascade_=ltout:in3
+d2_trans_up_1_cascade_=ltout:in1

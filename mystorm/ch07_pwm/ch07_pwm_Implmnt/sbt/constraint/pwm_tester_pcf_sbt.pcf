@@ -1,0 +1,20 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2017.08.27940
+
+# File Generated:     Dec 23 2017 13:33:07
+
+# Family & Device:    iCE40HX4K
+
+# Package:            TQ144
+
+# ##############################################################################
+
+###IOSet List 4
+set_io CLK 129
+set_io PWM_PIN 71
+set_io switch_dn 63
+set_io switch_up 64
+

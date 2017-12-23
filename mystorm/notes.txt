@@ -1,0 +1,6 @@
+General mystorm notes
+
+Setting stty in linux:
+
+(stty raw -echo;cat) < /dev/ttyACM0 & 
+

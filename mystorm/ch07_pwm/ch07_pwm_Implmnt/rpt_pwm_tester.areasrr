@@ -1,0 +1,114 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX4KTQ144 (Lattice)
+
+--------------------------------------------------------------------------
+########   Utilization report for  Top level view:   pwm_tester   ########
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     64                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block pwm_tester:	64 (27.83 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       96                 100 %                
+CARRYS     56                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block pwm_tester:	152 (66.09 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     6                  100 %                
+=================================================
+Total IO PADS in the block pwm_tester:	6 (2.61 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   debouncer   ########
+Instance path:   pwm_tester.debouncer                          
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     20                 31.2 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block pwm_tester.debouncer:	20 (8.70 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       28                 29.2 %               
+CARRYS     15                 26.8 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block pwm_tester.debouncer:	43 (18.70 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  16.7 %               
+=================================================
+Total IO PADS in the block pwm_tester.debouncer:	1 (0.43 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   debouncer_0   ########
+Instance path:   pwm_tester.debouncer_0                          
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     20                 31.2 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block pwm_tester.debouncer_0:	20 (8.70 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       33                 34.4 %               
+CARRYS     15                 26.8 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block pwm_tester.debouncer_0:	48 (20.87 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  16.7 %               
+=================================================
+Total IO PADS in the block pwm_tester.debouncer_0:	1 (0.43 % Utilization)
+
+---------------------------------------------------------
+########   Utilization report for  cell:   pwm   ########
+Instance path:   pwm_tester.pwm                          
+=========================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     9                  14.1 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block pwm_tester.pwm:	9 (3.91 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       17                 17.7 %               
+CARRYS     15                 26.8 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block pwm_tester.pwm:	32 (13.91 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+
