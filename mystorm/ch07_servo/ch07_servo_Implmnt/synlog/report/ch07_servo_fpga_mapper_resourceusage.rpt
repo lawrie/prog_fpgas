@@ -1,0 +1,28 @@
+---------------------------------------
+Resource Usage Report for servo_tester 
+
+Mapping to part: ice40hx4ktq144
+Cell usage:
+GND             3 uses
+SB_CARRY        103 uses
+SB_DFF          47 uses
+SB_DFFE         17 uses
+SB_DFFSR        34 uses
+SB_GB           3 uses
+VCC             3 uses
+SB_LUT4         151 uses
+
+I/O ports: 4
+I/O primitives: 4
+SB_GB_IO       1 use
+SB_IO          3 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   98 (2%)
+
+@S |Mapping Summary:
+Total  LUTs: 151 (4%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 151 = 151 
+

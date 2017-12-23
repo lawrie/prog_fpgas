@@ -1,0 +1,3 @@
+@W: FX1039 :"/home/ed/dev/prog_fpgas/mystorm/ch07_servo/src/servo.v":12:0:12:5|User-specified initial value defined for instance p.count[15:0] is being ignored. 
+@W: FX1039 :"/home/ed/dev/prog_fpgas/mystorm/ch07_servo/src/servo_tester.v":40:0:40:5|User-specified initial value defined for instance pulse_len[15:0] is being ignored. 
+@W: MT420 |Found inferred clock servo_tester|CLK with period 13.91ns. Please declare a user-defined clock on object "p:CLK"

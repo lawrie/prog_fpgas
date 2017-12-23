@@ -1,0 +1,14 @@
+/home/ed/lscc/iCEcube2.2017.08/synpbase/bin/m_generic  -prodtype  synplify_pro   -encrypt  -pro  -rundir  /home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt   -part iCE40HX4K  -package TQ144    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile /home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/synlog/report/ch07_servo_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  /home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/ch07_servo.edf   -autoconstraint  -freq 1.000   /home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/synwork/ch07_servo_prem.srd  -sap  /home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/ch07_servo.sap  -otap  /home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/ch07_servo.tap  -omap  /home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/ch07_servo.map  -devicelib  /home/ed/lscc/iCEcube2.2017.08/synpbase/lib/generic/sb_ice40.v  -sap  /home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/ch07_servo.sap  -ologparam  /home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/syntmp/ch07_servo.plg  -osyn  /home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/ch07_servo.srm  -prjdir  /home/ed/dev/prog_fpgas/mystorm/ch07_servo/  -prjname  ch07_servo_syn  -log  /home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/synlog/ch07_servo_fpga_mapper.srr 
+rc:1 success:1 runtime:2
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/ch07_servo.edf|io:o|time:1514052629|size:167903|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/synwork/ch07_servo_prem.srd|io:i|time:1514052627|size:7977|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/ch07_servo.sap|io:o|time:1514052628|size:846|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/ch07_servo.tap|io:o|time:0|size:0|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/ch07_servo.map|io:o|time:1514052630|size:27|exec:0
+file:/home/ed/lscc/iCEcube2.2017.08/synpbase/lib/generic/sb_ice40.v|io:i|time:1512226239|size:220434|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/ch07_servo.sap|io:o|time:1514052628|size:846|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/syntmp/ch07_servo.plg|io:o|time:1514052630|size:506|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/ch07_servo.srm|io:o|time:1514052630|size:15084|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/synlog/ch07_servo_fpga_mapper.srr|io:o|time:1514052630|size:49047|exec:0
+file:/home/ed/lscc/iCEcube2.2017.08/synpbase/linux_a_64/m_generic|io:i|time:1512226240|size:32925640|exec:1
+file:/home/ed/lscc/iCEcube2.2017.08/synpbase/bin/m_generic|io:i|time:1512226239|size:345|exec:1

@@ -1,0 +1,7 @@
+/home/ed/lscc/iCEcube2.2017.08/synpbase/bin/syn_nfilter  -link  -multisrs  /home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/synwork/ch07_servo_comp.srs  -osyn  /home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/synwork/ch07_servo_mult.srs  -log  /home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/synlog/ch07_servo_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/synwork/ch07_servo_comp.srs|io:i|time:1514052626|size:5498|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/synwork/ch07_servo_mult.srs|io:o|time:1514052627|size:2689|exec:0
+file:/home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/synlog/ch07_servo_multi_srs_gen.srr|io:o|time:1514052627|size:823|exec:0
+file:/home/ed/lscc/iCEcube2.2017.08/synpbase/linux_a_64/syn_nfilter|io:i|time:1512226241|size:11473624|exec:1
+file:/home/ed/lscc/iCEcube2.2017.08/synpbase/bin/syn_nfilter|io:i|time:1512226239|size:366|exec:1

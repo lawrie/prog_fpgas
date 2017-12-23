@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch07_servo/src/debouncer.v":1:7:1:15|Synthesizing module debouncer in library work.
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch07_servo/src/servo.v":1:7:1:11|Synthesizing module servo in library work.
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch07_servo/src/servo_tester.v":25:7:25:18|Synthesizing module servo_tester in library work.
+@N|Running in 64-bit mode
+@N: NF107 :"/home/ed/dev/prog_fpgas/mystorm/ch07_servo/src/servo_tester.v":25:7:25:18|Selected library: work cell: servo_tester view verilog as top level
+@N: NF107 :"/home/ed/dev/prog_fpgas/mystorm/ch07_servo/src/servo_tester.v":25:7:25:18|Selected library: work cell: servo_tester view verilog as top level
+

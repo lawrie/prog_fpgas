@@ -1,0 +1,14 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT206 |Auto Constrain mode is enabled
+@N: BN362 :"/home/ed/dev/prog_fpgas/mystorm/ch07_servo/src/servo_tester.v":40:0:40:5|Removing sequential instance pulse_len[0] (in view: work.servo_tester(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/ed/dev/prog_fpgas/mystorm/ch07_servo/src/servo_tester.v":40:0:40:5|Removing sequential instance pulse_len[1] (in view: work.servo_tester(verilog)) because it does not drive other instances.
+@N: FX1016 :"/home/ed/dev/prog_fpgas/mystorm/ch07_servo/src/servo_tester.v":26:10:26:12|SB_GB_IO inserted on the port CLK.
+@N: FX1017 :"/home/ed/dev/prog_fpgas/mystorm/ch07_servo/src/servo.v":15:6:15:28|SB_GB inserted on the net p.prescaler12.
+@N: FX1017 :|SB_GB inserted on the net d2.idle_i.
+@N: FX1017 :|SB_GB inserted on the net d1.idle_i.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: /home/ed/dev/prog_fpgas/mystorm/ch07_servo/ch07_servo_Implmnt/ch07_servo.edf
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

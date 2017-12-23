@@ -1,0 +1,10 @@
+Selecting top level module servo_tester
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch07_servo/src/debouncer.v":1:7:1:15|Synthesizing module debouncer in library work.
+
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch07_servo/src/servo.v":1:7:1:11|Synthesizing module servo in library work.
+
+	CLK_F=32'b00000000000000000000000001100100
+   Generated name = servo_100s
+
+@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch07_servo/src/servo_tester.v":25:7:25:18|Synthesizing module servo_tester in library work.
+
