@@ -1,3 +1,0 @@
-@E: CG501 :"/home/ed/dev/prog_fpgas/mystorm/ch05_decoder_7_seg/src/seg_test.v":13:0:13:12|Expecting delimiter: , or ; or )
-@E: CS187 :"/home/ed/dev/prog_fpgas/mystorm/ch05_decoder_7_seg/src/seg_test.v":16:0:16:8|Expecting endmodule
-

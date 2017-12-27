@@ -1,7 +1,0 @@
-/home/ed/lscc/iCEcube2.2017.08/synpbase/bin/syn_nfilter  -link  -multisrs  /home/ed/dev/prog_fpgas/mystorm/ch04_counter_verilog/ch04_counter_verilog_Implmnt/synwork/ch04_counter_verilog_comp.srs  -osyn  /home/ed/dev/prog_fpgas/mystorm/ch04_counter_verilog/ch04_counter_verilog_Implmnt/synwork/ch04_counter_verilog_mult.srs  -log  /home/ed/dev/prog_fpgas/mystorm/ch04_counter_verilog/ch04_counter_verilog_Implmnt/synlog/ch04_counter_verilog_multi_srs_gen.srr 
-rc:0 success:1 runtime:0
-file:/home/ed/dev/prog_fpgas/mystorm/ch04_counter_verilog/ch04_counter_verilog_Implmnt/synwork/ch04_counter_verilog_comp.srs|io:i|time:1512252608|size:1494|exec:0
-file:/home/ed/dev/prog_fpgas/mystorm/ch04_counter_verilog/ch04_counter_verilog_Implmnt/synwork/ch04_counter_verilog_mult.srs|io:o|time:1512252609|size:1248|exec:0
-file:/home/ed/dev/prog_fpgas/mystorm/ch04_counter_verilog/ch04_counter_verilog_Implmnt/synlog/ch04_counter_verilog_multi_srs_gen.srr|io:o|time:1512252609|size:849|exec:0
-file:/home/ed/lscc/iCEcube2.2017.08/synpbase/linux_a_64/syn_nfilter|io:i|time:1512226241|size:11473624|exec:1
-file:/home/ed/lscc/iCEcube2.2017.08/synpbase/bin/syn_nfilter|io:i|time:1512226239|size:366|exec:1

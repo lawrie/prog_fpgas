@@ -1,1 +1,0 @@
-project -load ch04_data_selector_verilog_syn.prj

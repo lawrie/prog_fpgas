@@ -1,5 +1,0 @@
-ble_pack Q[3]_LC_3 {Q[3], Q_RNO[3]}
-ble_pack Q[0]_LC_0 {Q[0], Q_RNO[0]}
-ble_pack Q[2]_LC_2 {Q[2], Q_RNO[2]}
-ble_pack Q[1]_LC_1 {Q[1], Q_RNO[1]}
-clb_pack PLB_0 {Q[3]_LC_3, Q[0]_LC_0, Q[2]_LC_2, Q[1]_LC_1}

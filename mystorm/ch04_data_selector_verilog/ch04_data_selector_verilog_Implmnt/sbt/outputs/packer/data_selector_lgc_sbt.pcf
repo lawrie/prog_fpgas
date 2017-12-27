@@ -1,6 +1,0 @@
-set_location GND -1 -1 -1 #GND
-set_location A_RNI7MQ2 22 1 0 #SB_LUT4
-set_io SEL 37
-set_io Q 70
-set_io B 64
-set_io A 63

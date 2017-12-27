@@ -1,5 +1,0 @@
-Selecting top level module debounce
-@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debouncer.v":1:7:1:15|Synthesizing module debouncer in library work.
-
-@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":1:7:1:14|Synthesizing module debounce in library work.
-

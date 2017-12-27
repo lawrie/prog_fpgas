@@ -1,1 +1,0 @@
-@W: MT420 |Found inferred clock debounce|CLK with period 6.54ns. Please declare a user-defined clock on object "p:CLK"

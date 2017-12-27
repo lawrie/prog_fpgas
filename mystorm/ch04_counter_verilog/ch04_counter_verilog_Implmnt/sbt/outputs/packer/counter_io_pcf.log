@@ -1,5 +1,0 @@
-OUTPUT Q[3] 	 location (24, 0, 0) 	 70 	 
-OUTPUT Q[2] 	 location (23, 0, 1) 	 68 	 
-OUTPUT Q[1] 	 location (23, 0, 0) 	 67 	 
-OUTPUT Q[0] 	 location (24, 0, 1) 	 71 	 
-INPUT  Clock 	 location (22, 0, 0) 	 63 	 

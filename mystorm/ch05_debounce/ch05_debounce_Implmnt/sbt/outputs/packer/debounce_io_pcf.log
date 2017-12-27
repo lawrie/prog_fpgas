@@ -1,6 +1,0 @@
-INPUT  switch_b 	 location (22, 0, 1) 	 64 	 
-INPUT  switch_a 	 location (22, 0, 0) 	 63 	 
-OUTPUT led_c 	 location (23, 0, 1) 	 68 	 
-OUTPUT led_b 	 location (23, 0, 0) 	 67 	 
-OUTPUT led_a 	 location (24, 0, 1) 	 71 	 
-INPUT  CLK 	 location (12, 21, 1) 	 129 	 

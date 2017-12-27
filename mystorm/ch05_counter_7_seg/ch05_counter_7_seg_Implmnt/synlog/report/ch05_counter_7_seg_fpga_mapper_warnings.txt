@@ -1,5 +1,0 @@
-@W: FA239 :"/home/ed/dev/prog_fpgas/mystorm/ch05_counter_7_seg/src/decoder_7_seg.v":9:1:9:4|ROM SEG_2[6:0] (in view: work.decoder_7_seg_0(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"/home/ed/dev/prog_fpgas/mystorm/ch05_counter_7_seg/src/decoder_7_seg.v":9:1:9:4|ROM SEG_2[6:0] (in view: work.decoder_7_seg_0(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"/home/ed/dev/prog_fpgas/mystorm/ch05_counter_7_seg/src/decoder_7_seg.v":9:1:9:4|ROM SEG_2[6:0] (in view: work.decoder_7_seg_1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: FA239 :"/home/ed/dev/prog_fpgas/mystorm/ch05_counter_7_seg/src/decoder_7_seg.v":9:1:9:4|ROM SEG_2[6:0] (in view: work.decoder_7_seg_1(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
-@W: MT420 |Found inferred clock counter_7_seg|CLK with period 9.52ns. Please declare a user-defined clock on object "p:CLK"

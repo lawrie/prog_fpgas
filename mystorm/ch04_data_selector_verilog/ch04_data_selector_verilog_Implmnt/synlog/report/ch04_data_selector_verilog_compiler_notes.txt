@@ -1,7 +1,0 @@
-@N|Running in 64-bit mode
-@N|Running in 64-bit mode
-@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch04_data_selector_verilog/src/data_selector.v":1:7:1:19|Synthesizing module data_selector in library work.
-@N|Running in 64-bit mode
-@N: NF107 :"/home/ed/dev/prog_fpgas/mystorm/ch04_data_selector_verilog/src/data_selector.v":1:7:1:19|Selected library: work cell: data_selector view verilog as top level
-@N: NF107 :"/home/ed/dev/prog_fpgas/mystorm/ch04_data_selector_verilog/src/data_selector.v":1:7:1:19|Selected library: work cell: data_selector view verilog as top level
-

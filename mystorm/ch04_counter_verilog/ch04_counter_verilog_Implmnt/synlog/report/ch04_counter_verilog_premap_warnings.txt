@@ -1,1 +1,0 @@
-@W: MT529 :"/home/ed/dev/prog_fpgas/mystorm/ch04_counter_verilog/src/counter.v":6:0:6:5|Found inferred clock counter|Clock which controls 4 sequential elements including Q[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

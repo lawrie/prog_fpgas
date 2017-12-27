@@ -1,2 +1,0 @@
-@W: CL260 :"/home/ed/dev/prog_fpgas/mystorm/ch05_counter_7_seg/src/decoder_7_seg.v":7:0:7:5|Pruning register bit 0 of SEG[7:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-

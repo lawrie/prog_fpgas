@@ -1,8 +1,0 @@
-@N|Running in 64-bit mode
-@N|Running in 64-bit mode
-@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch05_decoder_7_seg/src/decoder_7_seg.v":1:7:1:19|Synthesizing module decoder_7_seg in library work.
-@N: CG364 :"/home/ed/dev/prog_fpgas/mystorm/ch05_decoder_7_seg/src/seg_test.v":1:7:1:14|Synthesizing module seg_test in library work.
-@N|Running in 64-bit mode
-@N: NF107 :"/home/ed/dev/prog_fpgas/mystorm/ch05_decoder_7_seg/src/seg_test.v":1:7:1:14|Selected library: work cell: seg_test view verilog as top level
-@N: NF107 :"/home/ed/dev/prog_fpgas/mystorm/ch05_decoder_7_seg/src/seg_test.v":1:7:1:14|Selected library: work cell: seg_test view verilog as top level
-

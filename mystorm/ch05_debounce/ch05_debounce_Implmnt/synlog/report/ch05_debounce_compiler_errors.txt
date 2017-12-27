@@ -1,3 +1,0 @@
-@E: CG342 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":27:2:27:6|Expecting target variable, found led_d -- possible misspelling
-@E: CS187 :"/home/ed/dev/prog_fpgas/mystorm/ch05_debounce/src/debounce.v":30:0:30:8|Expecting endmodule
-
